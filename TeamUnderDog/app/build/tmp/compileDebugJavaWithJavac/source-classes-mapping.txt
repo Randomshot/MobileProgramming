@@ -1,0 +1,4 @@
+com/example/teamunderdog/BuildConfig.java
+ com.example.teamunderdog.BuildConfig
+com/example/teamunderdog/databinding/ActivityMainBinding.java
+ com.example.teamunderdog.databinding.ActivityMainBinding
