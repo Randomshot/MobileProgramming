@@ -29,11 +29,7 @@
   <component name="ChangeListManager">
     <list default="true" id="beb75273-c3e1-412a-95cb-9f8711bde2df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/teamunderdog/ExerciseAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/teamunderdog/ExerciseAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/teamunderdog/ExerciseAddActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/teamunderdog/ExerciseAddActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/teamunderdog/ExerciseData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/teamunderdog/ExerciseData.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/teamunderdog/ExerciseListActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/teamunderdog/ExerciseListActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/teamunderdog/ExerciseListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/teamunderdog/ExerciseListFragment.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

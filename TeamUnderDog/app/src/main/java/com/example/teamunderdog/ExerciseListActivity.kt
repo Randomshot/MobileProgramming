@@ -33,7 +33,13 @@ class ExerciseListActivity : AppCompatActivity() {
         setDataAtFragment(ExerciseListFragment(),date)
 
         binding.datePicker.setOnDateChangedListener { view, year, monthOfYear, dayOfMonth ->
-            date = year.toString()+"-0"+(monthOfYear+1).toString()+"-"+dayOfMonth.toString()
+            if(monthOfYear>=9){
+                date = year.toString()+"-"+(monthOfYear+1).toString()+"-"+dayOfMonth.toString()
+            }
+            else{
+
+                date = year.toString()+"-0"+(monthOfYear+1).toString()+"-"+dayOfMonth.toString()
+            }
             setDataAtFragment(ExerciseListFragment(),date)
         }
         binding.addExerciseBtn.setOnClickListener {
