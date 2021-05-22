@@ -20,7 +20,7 @@ class ExerciseAddActivity : AppCompatActivity() {
 
     private fun editTextClear(){
         binding.apply {
-            addExerciseCountEditText.text.clear()
+            addExerciseTitleEditText.text.clear()
             addExerciseSetsNumEditText.text.clear()
             addExerciseWeightEditText.text.clear()
             addExerciseCountEditText.text.clear()
