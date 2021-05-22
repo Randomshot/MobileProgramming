@@ -94,7 +94,7 @@
             android:layout_weight="1"
             android:ems="4"
             android:gravity="center"
-            android:text="중량" />
+            android:text="중량(kg)" />
 
         <EditText
             android:id="@+id/addExerciseWeightEditText"
@@ -126,7 +126,7 @@
             android:layout_weight="1"
             android:ems="4"
             android:gravity="center"
-            android:text="횟수" />
+            android:text="횟수(회/1세트)" />
 
         <EditText
             android:id="@+id/addExerciseCountEditText"
