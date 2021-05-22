@@ -38,8 +38,9 @@ class ExerciseAddActivity : AppCompatActivity() {
             val setNum = binding.addExerciseSetsNumEditText.text.toString().toInt()
             val weight = binding.addExerciseWeightEditText.text.toString().toInt()
             val count = binding.addExerciseCountEditText.text.toString().toInt()
-            val values = ExerciseData(title,setNum,weight,count)
-            rdb.child(Random().nextInt(999999).toString()).setValue(values)
+            val randNum = Random().nextInt(999999)
+            val values = ExerciseData(randNum,title,setNum,weight,count)
+            rdb.child(randNum.toString()).setValue(values)
             editTextClear()
         }
         binding.addExerciseComponentCancelBtn.setOnClickListener {

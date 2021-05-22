@@ -5,7 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.teamunderdog.databinding.FragmentExerciseListBinding
 import com.firebase.ui.database.FirebaseRecyclerOptions
 import com.google.firebase.database.DatabaseReference
@@ -55,6 +57,22 @@ class ExerciseListFragment : Fragment() {
 
         binding!!.exerciseListRecyclerView.adapter = adapter
         adapter.startListening()
+
+        val simpleCallback = object:ItemTouchHelper.SimpleCallback(
+                ItemTouchHelper.DOWN or ItemTouchHelper.UP,
+                ItemTouchHelper.RIGHT){
+            override fun onMove(recyclerView: RecyclerView, viewHolder: RecyclerView.ViewHolder, target: RecyclerView.ViewHolder): Boolean {
+                TODO("Not yet implemented")
+            }
+
+            override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
+                rdb.child(adapter.getItem(viewHolder.adapterPosition).eId.toString()).removeValue()
+
+            }
+
+        }
+        val itemTouchHelper = ItemTouchHelper(simpleCallback)
+        itemTouchHelper.attachToRecyclerView(binding!!.exerciseListRecyclerView)
     }
 
     override fun onDestroy() {

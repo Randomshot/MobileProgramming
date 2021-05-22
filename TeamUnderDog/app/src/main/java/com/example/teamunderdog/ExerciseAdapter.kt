@@ -17,6 +17,8 @@ class ExerciseAdapter(options: FirebaseRecyclerOptions<ExerciseData>):
 
     var itemClickListener:OnItemClickListener?=null
 
+
+
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
         val title: TextView = itemView.findViewById(R.id.exerciseTitleTextView)
         val setsNum: TextView = itemView.findViewById(R.id.exerciseSetsNumTextView)
