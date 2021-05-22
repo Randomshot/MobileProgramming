@@ -1799,6 +1799,16 @@ id actions
 id activity_chooser_view_content
 id add
 id addExerciseBtn
+id addExerciseCompnentBtn
+id addExerciseComponentCancelBtn
+id addExerciseCountEditText
+id addExerciseCountTextView
+id addExerciseSetsNumEditText
+id addExerciseSetsNumTextView
+id addExerciseTitleEditText
+id addExerciseTitleTextView
+id addExerciseWeightEditText
+id addExerciseWeightTextView
 id adjust_height
 id adjust_width
 id alertTitle
@@ -1817,6 +1827,8 @@ id barrier
 id baseline
 id beginOnFirstDraw
 id beginning
+id blankTextView1
+id blankTextView2
 id blocking
 id bottom
 id bounce
@@ -2010,6 +2022,7 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id navigation_header_container
 id never
+id noDataTextView
 id noScroll
 id none
 id normal
@@ -2122,9 +2135,13 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView2
 id textView3
 id textView4
+id textView5
 id textView7
+id textView8
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

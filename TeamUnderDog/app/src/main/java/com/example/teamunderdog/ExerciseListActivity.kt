@@ -1,5 +1,6 @@
 package com.example.teamunderdog
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
@@ -31,8 +32,14 @@ class ExerciseListActivity : AppCompatActivity() {
         var date = LocalDate.now().toString()
         setDataAtFragment(ExerciseListFragment(),date)
 
+        binding.datePicker.setOnDateChangedListener { view, year, monthOfYear, dayOfMonth ->
+            date = year.toString()+"-"+monthOfYear.toString()+"-"+dayOfMonth.toString()
+            setDataAtFragment(ExerciseListFragment(),date)
+        }
         binding.addExerciseBtn.setOnClickListener {
-
+            val intent = Intent(this, ExerciseAddActivity::class.java)
+            intent.putExtra("date",date)
+            startActivity(intent)
         }
     }
 }

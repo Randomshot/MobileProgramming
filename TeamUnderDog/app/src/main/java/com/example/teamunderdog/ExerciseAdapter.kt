@@ -40,9 +40,9 @@ class ExerciseAdapter(options: FirebaseRecyclerOptions<ExerciseData>):
     override fun onBindViewHolder(holder: ViewHolder, position: Int, data: ExerciseData) {
 
         holder.title.text = data.eTitle
-        holder.setsNum.text = data.eSetsNum.toString()
-        holder.weight.text = data.eWeight.toString()
-        holder.count.text = data.eCount.toString()
+        holder.setsNum.text = data.eSetsNum.toString() + " 세트"
+        holder.weight.text = data.eWeight.toString() + " kg"
+        holder.count.text = data.eCount.toString() + " 회/1세트"
 
     }
 

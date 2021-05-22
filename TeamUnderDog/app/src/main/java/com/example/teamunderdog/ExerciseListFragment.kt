@@ -45,6 +45,7 @@ class ExerciseListFragment : Fragment() {
         val option = FirebaseRecyclerOptions.Builder<ExerciseData>()
             .setQuery(query, ExerciseData::class.java)
             .build()
+
         adapter = ExerciseAdapter(option)
         adapter.itemClickListener = object:ExerciseAdapter.OnItemClickListener{
             override fun OnItemClick(view: View, position: Int) {
@@ -56,5 +57,14 @@ class ExerciseListFragment : Fragment() {
         adapter.startListening()
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        adapter.stopListening()
+    }
+
+    override fun onDetach() {
+        super.onDetach()
+        adapter.stopListening()
+    }
 
 }

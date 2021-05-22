@@ -5,6 +5,13 @@
     android:layout_height="match_parent"
     tools:context=".ExerciseListFragment">
 
+    <TextView
+        android:id="@+id/noDataTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="운동을 추가 해주세요."
+        android:visibility="gone" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/exerciseListRecyclerView"
         android:layout_width="match_parent"
