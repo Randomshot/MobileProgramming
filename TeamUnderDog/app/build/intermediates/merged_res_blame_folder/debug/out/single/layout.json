@@ -1,6 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\s_ghgus7175\\Documents\\GitHub\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\s_ghgus7175\\Documents\\GitHub\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\s_ghgus7175\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\s_ghgus7175\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\s_ghgus7175\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_exercise_list.xml",
+        "source": "C:\\Users\\s_ghgus7175\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\fragment_exercise_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\s_ghgus7175\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\exercise_row.xml",
+        "source": "C:\\Users\\s_ghgus7175\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\exercise_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\s_ghgus7175\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_exercise_add.xml",
+        "source": "C:\\Users\\s_ghgus7175\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\activity_exercise_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\s_ghgus7175\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_exercise_list.xml",
+        "source": "C:\\Users\\s_ghgus7175\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\activity_exercise_list.xml"
     }
 ]
