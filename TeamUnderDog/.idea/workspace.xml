@@ -5,8 +5,11 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb75273-c3e1-412a-95cb-9f8711bde2df" name="Default Changelist" comment="" />
+    <list default="true" id="84adcb1d-a322-49b0-9d90-5cb98185d289" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,10 +24,19 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
   <component name="KotlinCodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="ProjectId" id="1spHbd8aNJfSzEuf7Uiopf2ZFWE" />
+  <component name="ProjectId" id="1sqQL6nX2YsgJM44yPg2rYuOEHq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,12 +44,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MobileProgramming/TeamUnderDog" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\s_ghgus7175\AndroidStudioProjects\TeamUnderDog\app" />
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.example.exercisetips" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lsd\Desktop\SDL\activity\ExerciseTips\app\src\main\res\drawable-v24" />
+      <recent name="C:\Users\lsd\Desktop\SDL\activity\ExerciseTips\app\src\main\res\layout" />
     </key>
   </component>
   <component name="RunManager">
@@ -48,8 +65,8 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="TeamUnderDog.app" />
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="ExerciseTips.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -111,12 +128,50 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="beb75273-c3e1-412a-95cb-9f8711bde2df" name="Default Changelist" comment="" />
-      <created>1621562683724</created>
+      <changelist id="84adcb1d-a322-49b0-9d90-5cb98185d289" name="Default Changelist" comment="" />
+      <created>1621597580819</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1621562683724</updated>
+      <updated>1621597580819</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1104" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1621691277072">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1104" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1621691277072" />
+    <state x="954" y="279" key="AndroidCreateResourceFileDialog" timestamp="1621694410356">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="954" y="279" key="AndroidCreateResourceFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1621694410356" />
+    <state x="1126" y="270" key="AndroidProcessChooserDialog" timestamp="1621704275761">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1126" y="270" key="AndroidProcessChooserDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1621704275761" />
+    <state x="1154" y="279" key="FileChooserDialogImpl" timestamp="1621685646571">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1154" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1621685646571" />
+    <state width="1108" height="239" key="GridCell.Tab.0.bottom" timestamp="1621707799606">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1108" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1621707799606" />
+    <state width="1108" height="239" key="GridCell.Tab.0.center" timestamp="1621707799605">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1108" height="239" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1621707799605" />
+    <state width="1108" height="239" key="GridCell.Tab.0.left" timestamp="1621707799605">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1108" height="239" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1621707799605" />
+    <state width="1108" height="239" key="GridCell.Tab.0.right" timestamp="1621707799606">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1108" height="239" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1621707799606" />
+    <state x="1168" y="302" key="chooseDestDirectoryDialog" timestamp="1621692354697">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1168" y="302" key="chooseDestDirectoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1621692354697" />
   </component>
 </project>

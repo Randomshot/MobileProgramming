@@ -1,4 +1,8 @@
-com/example/teamunderdog/BuildConfig.java
- com.example.teamunderdog.BuildConfig
-com/example/teamunderdog/databinding/ActivityMainBinding.java
- com.example.teamunderdog.databinding.ActivityMainBinding
+com/example/exercisetips/BuildConfig.java
+ com.example.exercisetips.BuildConfig
+com/example/exercisetips/databinding/ExerciseTipPageBinding.java
+ com.example.exercisetips.databinding.ExerciseTipPageBinding
+com/example/exercisetips/databinding/FragmentTipsImageBinding.java
+ com.example.exercisetips.databinding.FragmentTipsImageBinding
+com/example/exercisetips/databinding/ActivityTipsMainBinding.java
+ com.example.exercisetips.databinding.ActivityTipsMainBinding
