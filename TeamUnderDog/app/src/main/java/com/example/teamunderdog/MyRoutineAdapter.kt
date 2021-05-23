@@ -1,10 +1,10 @@
-package com.e.myfbdb
+package com.example.teamunderdog
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.e.myfbdb.databinding.RoutineRowBinding
+import com.example.teamunderdog.databinding.RoutineRowBinding
 import com.firebase.ui.database.FirebaseRecyclerAdapter
 import com.firebase.ui.database.FirebaseRecyclerOptions
 

@@ -1,10 +1,10 @@
-package com.e.myfbdb
+package com.example.teamunderdog
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.e.myfbdb.databinding.ActivitySportsBinding
+import com.example.teamunderdog.databinding.ActivitySportsBinding
 import com.firebase.ui.database.FirebaseRecyclerOptions
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
