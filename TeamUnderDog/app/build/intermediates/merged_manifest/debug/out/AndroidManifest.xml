@@ -8,10 +8,9 @@
         android:minSdkVersion="28"
         android:targetSdkVersion="30" />
 
-    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
     <!-- <uses-sdk android:minSdkVersion="14"/> -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -24,7 +23,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.TeamUnderDog" >
-        <activity android:name="com.example.teamunderdog.MainActivity" >
+        <activity android:name="com.example.teamunderdog.SportsActivity" />
+        <activity android:name="com.example.teamunderdog.MainActivity" />
+        <activity android:name="com.example.teamunderdog.RoutineActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
