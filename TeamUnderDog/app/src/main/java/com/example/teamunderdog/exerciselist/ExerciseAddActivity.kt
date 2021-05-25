@@ -1,4 +1,4 @@
-package com.example.teamunderdog
+package com.example.teamunderdog.exerciselist
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -39,7 +39,7 @@ class ExerciseAddActivity : AppCompatActivity() {
             val weight = binding.addExerciseWeightEditText.text.toString().toInt()
             val count = binding.addExerciseCountEditText.text.toString().toInt()
             val randNum = Random().nextInt(999999)
-            val values = ExerciseData(randNum,title,setNum,weight,count)
+            val values = ExerciseData(randNum, title, setNum, weight, count)
             rdb.child(randNum.toString()).setValue(values)
             editTextClear()
         }

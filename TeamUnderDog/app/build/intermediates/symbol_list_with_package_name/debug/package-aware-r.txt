@@ -27,6 +27,13 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim fragment_close_enter
+anim fragment_close_exit
+anim fragment_fade_enter
+anim fragment_fade_exit
+anim fragment_fast_out_extra_slow_in
+anim fragment_open_enter
+anim fragment_open_exit
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
@@ -1651,6 +1658,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable benchpress
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1684,6 +1692,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dumbellrow
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_clock_black_24dp
@@ -1694,6 +1703,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable lounge
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1726,6 +1736,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable plank
+drawable pushup
+drawable squat
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1834,6 +1847,7 @@ id bottom
 id bounce
 id button
 id button2
+id button3
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -1932,6 +1946,7 @@ id fixed
 id flip
 id floating
 id forever
+id fragment_container_view_tag
 id ghost_view
 id ghost_view_holder
 id gone
@@ -1953,6 +1968,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id info
 id insertrtn
 id insertstn
@@ -2142,6 +2158,7 @@ id stretch
 id submenuarrow
 id submit_area
 id tabMode
+id tablayout
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -2200,8 +2217,11 @@ id up
 id updatertn
 id updatestn
 id useLogo
+id viewPager
 id view_offset_helper
 id visible
+id visible_removing_fragment_view_tag
+id webView
 id wide
 id withText
 id withinBounds
@@ -2274,6 +2294,7 @@ layout activity_exercise_list
 layout activity_main
 layout activity_routine
 layout activity_sports
+layout activity_tips_main
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2291,7 +2312,9 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout exercise_row
+layout exercise_tip_page
 layout fragment_exercise_list
+layout fragment_tips_image
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -3273,6 +3296,8 @@ styleable FlowLayout itemSpacing lineSpacing
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
+styleable Fragment android_name android_id android_tag
+styleable FragmentContainerView android_name android_tag
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable ImageFilterView altSrc brightness contrast crossfade overlay round roundPercent saturation warmth

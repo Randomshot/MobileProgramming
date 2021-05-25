@@ -1,4 +1,4 @@
-package com.example.teamunderdog
+package com.example.teamunderdog.routine
 
 import android.os.Bundle
 import android.view.View
@@ -38,7 +38,7 @@ class SportsActivity : AppCompatActivity() {
             .setQuery(query, Sports::class.java)
             .build()
         adapter = MySportsAdapter(option)
-        adapter.itemClickListener = object :MySportsAdapter.OnItemClickListener{
+        adapter.itemClickListener = object : MySportsAdapter.OnItemClickListener{
             override fun OnItemClick(view: View, position: Int) {
                 binding.apply {
                     sIdEdit.setText(adapter.getItem(position).sId.toString())
@@ -56,7 +56,7 @@ class SportsActivity : AppCompatActivity() {
             insertstn.setOnClickListener {
                 initAdapter()
                 val item = Sports(sIdEdit.text.toString().toInt(),
-                    sNameEdit.text.toString(), checkBox.isChecked, sCountEdit.text.toString().toInt())
+                        sNameEdit.text.toString(), checkBox.isChecked, sCountEdit.text.toString().toInt())
                 rdb.child(sIdEdit.text.toString()).setValue(item)
                 clearInput()
             }
@@ -71,7 +71,7 @@ class SportsActivity : AppCompatActivity() {
                     .setQuery(query, Sports::class.java)
                     .build()
                 adapter = MySportsAdapter(option)
-                adapter.itemClickListener = object :MySportsAdapter.OnItemClickListener{
+                adapter.itemClickListener = object : MySportsAdapter.OnItemClickListener{
                     override fun OnItemClick(view: View, position: Int) {
                         binding.apply {
                             // 운동리스트로 intent
@@ -117,7 +117,7 @@ class SportsActivity : AppCompatActivity() {
                 .setQuery(query, Sports::class.java)
                 .build()
             adapter = MySportsAdapter(option)
-            adapter.itemClickListener = object :MySportsAdapter.OnItemClickListener{
+            adapter.itemClickListener = object : MySportsAdapter.OnItemClickListener{
                 override fun OnItemClick(view: View, position: Int) {
                     binding.apply {
                         // 운동리스트로 intent

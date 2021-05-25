@@ -1,4 +1,4 @@
-package com.example.teamunderdog
+package com.example.teamunderdog.exerciselist
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -49,7 +49,7 @@ class ExerciseListFragment : Fragment() {
             .build()
 
         adapter = ExerciseAdapter(option)
-        adapter.itemClickListener = object:ExerciseAdapter.OnItemClickListener{
+        adapter.itemClickListener = object: ExerciseAdapter.OnItemClickListener{
             override fun OnItemClick(view: View, position: Int) {
 
             }

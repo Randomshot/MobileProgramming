@@ -1,10 +1,11 @@
-package com.example.teamunderdog
+package com.example.teamunderdog.exerciselist
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.teamunderdog.R
 import com.firebase.ui.database.FirebaseRecyclerAdapter
 import com.firebase.ui.database.FirebaseRecyclerOptions
 
@@ -15,7 +16,7 @@ class ExerciseAdapter(options: FirebaseRecyclerOptions<ExerciseData>):
         fun OnItemClick(view: View, position: Int)
     }
 
-    var itemClickListener:OnItemClickListener?=null
+    var itemClickListener: OnItemClickListener?=null
 
 
 

@@ -1,4 +1,4 @@
-package com.example.teamunderdog
+package com.example.teamunderdog.routine
 
 import android.view.LayoutInflater
 import android.view.View
@@ -14,7 +14,7 @@ class MySportsAdapter(options: FirebaseRecyclerOptions<Sports>)
         fun OnItemClick(view: View, position: Int)
     }
 
-    var itemClickListener:OnItemClickListener?=null
+    var itemClickListener: OnItemClickListener?=null
 
     inner class ViewHolder (val binding: SportsRowBinding): RecyclerView.ViewHolder(binding.root){
         init{

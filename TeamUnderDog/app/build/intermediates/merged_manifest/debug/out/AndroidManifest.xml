@@ -8,7 +8,9 @@
         android:minSdkVersion="28"
         android:targetSdkVersion="30" />
 
-    <uses-permission android:name="android.permission.INTERNET" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
     <!-- <uses-sdk android:minSdkVersion="14"/> -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -24,12 +26,14 @@
         android:testOnly="true"
         android:theme="@style/Theme.TeamUnderDog" >
         <activity
-            android:name="com.example.teamunderdog.ExerciseAddActivity"
+            android:name="com.example.teamunderdog.exerciselist.ExerciseAddActivity"
             android:label="@string/title_activity_exercise_add" >
         </activity>
-        <activity android:name="com.example.teamunderdog.SportsActivity" />
-        <activity android:name="com.example.teamunderdog.RoutineActivity" />
-        <activity android:name="com.example.teamunderdog.ExerciseListActivity" />
+        <activity android:name="com.example.exercisetips.TipsViewPageActivity" />
+        <activity android:name="com.example.exercisetips.TipsMainActivity" />
+        <activity android:name="com.example.teamunderdog.routine.SportsActivity" />
+        <activity android:name="com.example.teamunderdog.routine.RoutineActivity" />
+        <activity android:name="com.example.teamunderdog.exerciselist.ExerciseListActivity" />
         <activity android:name="com.example.teamunderdog.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

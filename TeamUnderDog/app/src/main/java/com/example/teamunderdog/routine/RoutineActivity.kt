@@ -1,10 +1,11 @@
-package com.example.teamunderdog
+package com.example.teamunderdog.routine
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.teamunderdog.routine.SportsActivity
 import com.example.teamunderdog.databinding.ActivityRoutineBinding
 import com.firebase.ui.database.FirebaseRecyclerOptions
 import com.google.firebase.database.DatabaseReference
@@ -32,7 +33,7 @@ class RoutineActivity : AppCompatActivity() {
             .setQuery(query, Routine::class.java)
             .build()
         adapter = MyRoutineAdapter(option)
-        adapter.itemClickListener = object :MyRoutineAdapter.OnItemClickListener{
+        adapter.itemClickListener = object : MyRoutineAdapter.OnItemClickListener{
             override fun OnItemClick(view: View, position: Int) {
                 binding.rIdEdit.setText(adapter.getItem(position).rId.toString())
                 binding.rNameEdit.setText(adapter.getItem(position).rName.toString())
@@ -50,7 +51,7 @@ class RoutineActivity : AppCompatActivity() {
             insertrtn.setOnClickListener {
                 initAdapter()
                 val item = Routine(rIdEdit.text.toString().toInt(),
-                    rNameEdit.text.toString(), mutableListOf())
+                        rNameEdit.text.toString(), mutableListOf())
                 rdb.child(rIdEdit.text.toString()).setValue(item)
                 clearInput()
             }
@@ -65,7 +66,7 @@ class RoutineActivity : AppCompatActivity() {
                     .setQuery(query, Routine::class.java)
                     .build()
                 adapter = MyRoutineAdapter(option)
-                adapter.itemClickListener = object :MyRoutineAdapter.OnItemClickListener{
+                adapter.itemClickListener = object : MyRoutineAdapter.OnItemClickListener{
                     override fun OnItemClick(view: View, position: Int) {
                         binding.rIdEdit.setText(adapter.getItem(position).rId.toString())
                         binding.rNameEdit.setText(adapter.getItem(position).rName.toString())
@@ -106,7 +107,7 @@ class RoutineActivity : AppCompatActivity() {
                 .setQuery(query, Routine::class.java)
                 .build()
             adapter = MyRoutineAdapter(option)
-            adapter.itemClickListener = object :MyRoutineAdapter.OnItemClickListener{
+            adapter.itemClickListener = object : MyRoutineAdapter.OnItemClickListener{
                 override fun OnItemClick(view: View, position: Int) {
                     binding.rIdEdit.setText(adapter.getItem(position).rId.toString())
                     binding.rNameEdit.setText(adapter.getItem(position).rName.toString())
