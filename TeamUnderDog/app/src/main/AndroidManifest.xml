@@ -16,9 +16,12 @@
         </activity>
         <activity android:name="com.example.exercisetips.TipsViewPageActivity"/>
         <activity android:name="com.example.exercisetips.TipsMainActivity"/>
+
         <activity android:name=".routine.SportsActivity" />
         <activity android:name=".routine.RoutineActivity"/>
+
         <activity android:name=".exerciselist.ExerciseListActivity" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
