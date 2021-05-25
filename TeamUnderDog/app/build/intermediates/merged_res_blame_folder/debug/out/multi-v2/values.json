@@ -1,10 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\s_ghgus7175\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\s_ghgus7175\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "835"
+                    },
+                    "to": {
+                        "startLines": "3802",
+                        "startColumns": "4",
+                        "startOffsets": "254082",
+                        "endLines": "3814",
+                        "endColumns": "12",
+                        "endOffsets": "254801"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "1,3,9,4",
                         "startColumns": "4,4,4,4",
@@ -114,23 +133,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\s_ghgus7175\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "6,13",
-                        "startColumns": "4,4",
-                        "startOffsets": "196,532",
-                        "endColumns": "54,56",
-                        "endOffsets": "246,584"
-                    },
-                    "to": {
-                        "startLines": "598,670",
-                        "startColumns": "4,4",
-                        "startOffsets": "32809,37604",
-                        "endColumns": "54,56",
-                        "endOffsets": "32859,37656"
-                    }
-                },
-                {
                     "source": "C:\\Users\\s_ghgus7175\\.gradle\\caches\\transforms-2\\files-2.1\\8986bcbc162182cd3ccff3f816d890dd\\transition-1.2.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -184,23 +186,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\s_ghgus7175\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,330,412,516,625,745,852",
-                        "endColumns": "143,130,81,103,108,119,106,83",
-                        "endOffsets": "194,325,407,511,620,740,847,931"
-                    },
-                    "to": {
-                        "startLines": "1085,1090,1091,1092,1093,1094,1095,1156",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "65525,66137,66268,66350,66454,66563,66683,76750",
-                        "endColumns": "143,130,81,103,108,119,106,83",
-                        "endOffsets": "65664,66263,66345,66449,66558,66678,66785,76829"
-                    }
-                },
-                {
                     "source": "C:\\Users\\s_ghgus7175\\.gradle\\caches\\transforms-2\\files-2.1\\6b5d870c3e42c7bee37e0640042ebd87\\jetified-viewpager2-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -217,6 +202,23 @@
                         "endLines": "8100",
                         "endColumns": "24",
                         "endOffsets": "518278"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,330,412,516,625,745,852",
+                        "endColumns": "143,130,81,103,108,119,106,83",
+                        "endOffsets": "194,325,407,511,620,740,847,931"
+                    },
+                    "to": {
+                        "startLines": "1085,1090,1091,1092,1093,1094,1095,1156",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "65525,66137,66268,66350,66454,66563,66683,76750",
+                        "endColumns": "143,130,81,103,108,119,106,83",
+                        "endOffsets": "65664,66263,66345,66449,66558,66678,66785,76829"
                     }
                 },
                 {
@@ -239,22 +241,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\s_ghgus7175\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\values\\themes.xml",
+                    "source": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "102",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "835"
+                        "startLines": "6,13",
+                        "startColumns": "4,4",
+                        "startOffsets": "196,532",
+                        "endColumns": "54,56",
+                        "endOffsets": "246,584"
                     },
                     "to": {
-                        "startLines": "3802",
-                        "startColumns": "4",
-                        "startOffsets": "254082",
-                        "endLines": "3814",
-                        "endColumns": "12",
-                        "endOffsets": "254801"
+                        "startLines": "598,670",
+                        "startColumns": "4,4",
+                        "startOffsets": "32809,37604",
+                        "endColumns": "54,56",
+                        "endOffsets": "32859,37656"
                     }
                 },
                 {
@@ -274,6 +274,23 @@
                         "endLines": "5053,5060,5071,7483,7488",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "334793,335178,335775,482714,482984"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "293,57,105,153,201,247,336",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "330,99,147,195,241,287,373"
+                    },
+                    "to": {
+                        "startLines": "403,500,501,502,513,514,517",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "19541,26294,26341,26388,27132,27177,27343",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "19578,26336,26383,26430,27172,27217,27380"
                     }
                 },
                 {
@@ -312,23 +329,6 @@
                         "endLines": "24,412,413,414,415,599,600,601,1203,3064,3067,3070,5943",
                         "endColumns": "51,60,61,61,63,58,56,53,12,12,12,12,24",
                         "endOffsets": "1181,20280,20342,20404,20468,32918,32975,33029,80032,202026,202152,202280,383045"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\s_ghgus7175\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "293,57,105,153,201,247,336",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "330,99,147,195,241,287,373"
-                    },
-                    "to": {
-                        "startLines": "403,500,501,502,513,514,517",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "19541,26294,26341,26388,27132,27177,27343",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "19578,26336,26383,26430,27172,27217,27380"
                     }
                 }
             ]

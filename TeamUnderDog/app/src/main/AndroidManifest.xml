@@ -14,8 +14,8 @@
             android:name=".ExerciseAddActivity"
             android:label="@string/title_activity_exercise_add">
         </activity>
-
-
+        <activity android:name=".SportsActivity" />
+        <activity android:name=".RoutineActivity"/>
         <activity android:name=".ExerciseListActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

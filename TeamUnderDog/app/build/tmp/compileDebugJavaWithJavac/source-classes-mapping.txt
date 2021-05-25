@@ -1,7 +1,15 @@
+com/example/teamunderdog/databinding/RoutineRowBinding.java
+ com.example.teamunderdog.databinding.RoutineRowBinding
+com/example/teamunderdog/databinding/ActivitySportsBinding.java
+ com.example.teamunderdog.databinding.ActivitySportsBinding
+com/example/teamunderdog/databinding/SportsRowBinding.java
+ com.example.teamunderdog.databinding.SportsRowBinding
 com/example/teamunderdog/databinding/ActivityExerciseAddBinding.java
  com.example.teamunderdog.databinding.ActivityExerciseAddBinding
 com/example/teamunderdog/BuildConfig.java
  com.example.teamunderdog.BuildConfig
+com/example/teamunderdog/databinding/RowBinding.java
+ com.example.teamunderdog.databinding.RowBinding
 com/example/teamunderdog/databinding/ExerciseRowBinding.java
  com.example.teamunderdog.databinding.ExerciseRowBinding
 com/example/teamunderdog/databinding/FragmentExerciseListBinding.java
@@ -10,3 +18,5 @@ com/example/teamunderdog/databinding/ActivityExerciseListBinding.java
  com.example.teamunderdog.databinding.ActivityExerciseListBinding
 com/example/teamunderdog/databinding/ActivityMainBinding.java
  com.example.teamunderdog.databinding.ActivityMainBinding
+com/example/teamunderdog/databinding/ActivityRoutineBinding.java
+ com.example.teamunderdog.databinding.ActivityRoutineBinding

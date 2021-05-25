@@ -27,6 +27,8 @@
             android:name="com.example.teamunderdog.ExerciseAddActivity"
             android:label="@string/title_activity_exercise_add" >
         </activity>
+        <activity android:name="com.example.teamunderdog.SportsActivity" />
+        <activity android:name="com.example.teamunderdog.RoutineActivity" />
         <activity android:name="com.example.teamunderdog.ExerciseListActivity" />
         <activity android:name="com.example.teamunderdog.MainActivity" >
             <intent-filter>

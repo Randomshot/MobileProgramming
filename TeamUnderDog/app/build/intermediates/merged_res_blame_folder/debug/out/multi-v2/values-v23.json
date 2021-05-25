@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\s_ghgus7175\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\s_ghgus7175\\.gradle\\caches\\transforms-2\\files-2.1\\0d457b307744a1475dd8ec3b7678c7ee\\material-1.3.0\\res\\values-v23\\values-v23.xml",
