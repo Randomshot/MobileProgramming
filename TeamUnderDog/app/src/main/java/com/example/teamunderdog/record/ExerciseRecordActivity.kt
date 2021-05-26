@@ -2,7 +2,9 @@ package com.example.teamunderdog.record
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.teamunderdog.databinding.ActivityExerciseRecordBinding
 
 import com.firebase.ui.database.FirebaseRecyclerOptions
@@ -22,16 +24,34 @@ class ExerciseRecordActivity : AppCompatActivity() {
     }
 
     private fun init() {
-        layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
-        rdb = FirebaseDatabase.getInstance().getReference("MyRecord")
+        val rdbpath = "MyRecord/items"
+        rdb = FirebaseDatabase.getInstance().getReference(rdbpath)
+        layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
         val query = rdb.limitToLast(50)
         val option = FirebaseRecyclerOptions.Builder<ExerciseRecordData>()
-            .setQuery(query, ExerciseRecordData::class.java)
-            .build()
+                .setQuery(query, ExerciseRecordData::class.java)
+                .build()
         adapter = ExerciseRecordAdapter(option)
         binding.apply {
             recyclerView.layoutManager = layoutManager
             recyclerView.adapter = adapter
         }
+        adapter.startListening()
+
+        val simpleCallback = object : ItemTouchHelper.SimpleCallback(
+                ItemTouchHelper.DOWN or ItemTouchHelper.UP,
+                ItemTouchHelper.RIGHT) {
+            override fun onMove(recyclerView: RecyclerView, viewHolder: RecyclerView.ViewHolder, target: RecyclerView.ViewHolder): Boolean {
+                TODO("Not yet implemented")
+            }
+
+            override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
+                rdb.child(adapter.getItem(viewHolder.adapterPosition).eId.toString()).removeValue()
+
+            }
+
+        }
+        val itemTouchHelper = ItemTouchHelper(simpleCallback)
+        itemTouchHelper.attachToRecyclerView(binding.recyclerView)
     }
 }
