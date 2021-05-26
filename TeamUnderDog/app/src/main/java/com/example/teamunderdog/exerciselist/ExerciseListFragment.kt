@@ -1,5 +1,6 @@
 package com.example.teamunderdog.exerciselist
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -9,6 +10,7 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.teamunderdog.databinding.FragmentExerciseListBinding
+import com.example.teamunderdog.record.ExerciseTimerActivity
 import com.firebase.ui.database.FirebaseRecyclerOptions
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
@@ -51,6 +53,18 @@ class ExerciseListFragment : Fragment() {
         adapter = ExerciseAdapter(option)
         adapter.itemClickListener = object: ExerciseAdapter.OnItemClickListener{
             override fun OnItemClick(view: View, position: Int) {
+                    val intent = Intent(context, ExerciseTimerActivity::class.java)
+                    val id = adapter.getItem(position).eId.toInt()
+                    val setNum = adapter.getItem(position).eSetsNum.toInt()
+                    val countNum = adapter.getItem(position).eCount.toInt()
+                    val name = adapter.getItem(position).eTitle.toString()
+
+                    intent.putExtra("date",date)
+                    intent.putExtra("name",name)
+                    intent.putExtra("set",setNum)
+                    intent.putExtra("count",countNum)
+                    intent.putExtra("id",id)
+                    startActivity(intent)
 
             }
         }
