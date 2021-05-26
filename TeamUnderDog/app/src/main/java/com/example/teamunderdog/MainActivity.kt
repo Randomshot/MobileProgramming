@@ -34,4 +34,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
+
+    private fun init() {
+        val intent = Intent(this, ExerciseListActivity::class.java)
+        //val intent = Intent(this, ExerciseRecordActivity::class.java)
+        startActivity(intent)
+    }
 }
