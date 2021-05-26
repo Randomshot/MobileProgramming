@@ -1848,6 +1848,8 @@ id bounce
 id button
 id button2
 id button3
+id button4
+id button5
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -1879,6 +1881,7 @@ id contentPanel
 id contiguous
 id coordinator
 id cos
+id countNum
 id counterclockwise
 id custom
 id customPanel
@@ -1916,13 +1919,17 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id edate
 id edit_query
+id eid
 id elastic
+id ename
 id end
 id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id erecord
 id exerciseCountTextView
 id exerciseListFrameLayout
 id exerciseListRecyclerView
@@ -2015,6 +2022,7 @@ id material_value_index
 id media_actions
 id message
 id middle
+id milliTextView
 id mini
 id month_grid
 id month_navigation_bar
@@ -2085,6 +2093,7 @@ id radio
 id ratio
 id rectangles
 id recyclerView
+id restBtn
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2118,9 +2127,11 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id secTextView
 id select_dialog_listview
 id selected
 id selection_type
+id setNum
 id shortcut
 id showCustom
 id showHome
@@ -2147,6 +2158,7 @@ id src_in
 id src_over
 id standard
 id start
+id startBtn
 id startHorizontal
 id startToEnd
 id startVertical
@@ -2185,6 +2197,7 @@ id textView4
 id textView5
 id textView7
 id textView8
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2291,6 +2304,8 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_exercise_add
 layout activity_exercise_list
+layout activity_exercise_record
+layout activity_exercise_timer
 layout activity_main
 layout activity_routine
 layout activity_sports
@@ -2311,6 +2326,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout exercise_record_row
 layout exercise_row
 layout exercise_tip_page
 layout fragment_exercise_list

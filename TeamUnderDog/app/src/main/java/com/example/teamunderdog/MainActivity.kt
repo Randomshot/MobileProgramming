@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.exercisetips.TipsMainActivity
 import com.example.teamunderdog.databinding.ActivityMainBinding
 import com.example.teamunderdog.exerciselist.ExerciseListActivity
+import com.example.teamunderdog.record.ExerciseRecordActivity
+import com.example.teamunderdog.record.ExerciseTimerActivity
 import com.example.teamunderdog.routine.RoutineActivity
 
 class MainActivity : AppCompatActivity() {
@@ -19,25 +21,34 @@ class MainActivity : AppCompatActivity() {
 
     private fun init() {
 
-        binding.button.setOnClickListener {
+        binding.apply {
+            button.setOnClickListener {
 
-            val intent = Intent(this, ExerciseListActivity::class.java)
-            startActivity(intent)
+                val intent = Intent(this@MainActivity, ExerciseListActivity::class.java)
+                startActivity(intent)
+            }
+            button2.setOnClickListener {
+
+                val intent = Intent(this@MainActivity, TipsMainActivity::class.java)
+                startActivity(intent)
+            }
+            button3.setOnClickListener {
+                val intent = Intent(this@MainActivity, RoutineActivity::class.java)
+                startActivity(intent)
+            }
+
+            button4.setOnClickListener {
+                val intent = Intent(this@MainActivity, ExerciseRecordActivity::class.java)
+                startActivity(intent)
+            }
+
+            button5.setOnClickListener {
+                val intent = Intent(this@MainActivity, ExerciseTimerActivity::class.java)
+                startActivity(intent)
+            }
         }
 
-        binding.button2.setOnClickListener {
-            val intent = Intent(this, RoutineActivity::class.java)
-            startActivity(intent)
-        }
-        binding.button3.setOnClickListener {
-            val intent = Intent(this, TipsMainActivity::class.java)
-            startActivity(intent)
-        }
     }
 
-    private fun init() {
-        val intent = Intent(this, ExerciseListActivity::class.java)
-        //val intent = Intent(this, ExerciseRecordActivity::class.java)
-        startActivity(intent)
-    }
+
 }

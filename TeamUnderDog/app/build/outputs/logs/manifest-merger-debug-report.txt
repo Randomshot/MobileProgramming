@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:2:1-36:12
+ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:2:1-39:12
 MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\f70b415e2e5d07fab49aa4f0b8b1d6c6\jetified-viewbinding-4.1.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment-ktx:1.2.5] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\5d83dcb040cc992197adb6a1644f9f87\jetified-fragment-ktx-1.2.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\7927e984a24aa51aed30c20351d67f56\jetified-activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -63,20 +63,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\s_ghgus7
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\846f989b254c875e83a8130e884e5a30\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\9a584a8d2219a9fecfb0b7eb61c849ce\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\0b288ce0c2d22dbddb74a7c057cd6286\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:2:1-36:12
+		ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:2:1-39:12
 		INJECTED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:2:1-36:12
+		ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:2:1-39:12
 		INJECTED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:2:11-69
@@ -89,7 +89,7 @@ MERGED from [com.google.firebase:firebase-database:20.0.0] C:\Users\s_ghgus7175\
 	android:name
 		ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:6:5-32:19
+ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:6:5-35:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\0d457b307744a1475dd8ec3b7678c7ee\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\0d457b307744a1475dd8ec3b7678c7ee\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\357d39cef9e795574ed8f5978fdc4f92\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -152,20 +152,28 @@ activity#com.example.teamunderdog.exerciselist.ExerciseListActivity
 ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:23:9-71
 	android:name
 		ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:23:19-68
+activity#com.example.teamunderdog.record.ExerciseRecordActivity
+ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:25:9-66
+	android:name
+		ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:25:19-64
+activity#com.example.teamunderdog.record.ExerciseTimerActivity
+ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:26:9-65
+	android:name
+		ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:26:19-63
 activity#com.example.teamunderdog.MainActivity
-ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:25:9-31:20
+ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:28:9-34:20
 	android:name
-		ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:25:19-47
+		ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:28:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:26:13-30:29
+ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:29:13-33:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:27:17-69
+ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:27:25-66
+		ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:29:17-77
+ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:29:27-74
+		ADDED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:32:27-74
 uses-sdk
 INJECTED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml

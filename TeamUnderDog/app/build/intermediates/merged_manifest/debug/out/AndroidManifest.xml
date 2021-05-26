@@ -34,6 +34,8 @@
         <activity android:name="com.example.teamunderdog.routine.SportsActivity" />
         <activity android:name="com.example.teamunderdog.routine.RoutineActivity" />
         <activity android:name="com.example.teamunderdog.exerciselist.ExerciseListActivity" />
+        <activity android:name="com.example.teamunderdog.record.ExerciseRecordActivity" />
+        <activity android:name="com.example.teamunderdog.record.ExerciseTimerActivity" />
         <activity android:name="com.example.teamunderdog.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
