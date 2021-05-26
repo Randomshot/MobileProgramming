@@ -27,6 +27,13 @@ class ExerciseTimerActivity : AppCompatActivity()  {
         setContentView(binding.root)
         init()
     }
+
+    override fun onStop() {
+        super.onStop()
+        timerTaskTotal?.cancel()
+        timerTaskRest?.cancel()
+    }
+
     private fun startTotal(){
         timerTaskTotal = timer(period = 10){
             time++
@@ -37,14 +44,15 @@ class ExerciseTimerActivity : AppCompatActivity()  {
         timerTaskRest = timer(period = 10){
             timeRest--
             var sec = timeRest / 100
-            var milli = timeRest % 100
-            if(sec == 0 && milli == 0) {
+            //var sec = timeRest / 100
+            //var milli = timeRest % 100
+            if(sec == 0 /*&& milli == 0*/) {
                 reset(timerTaskRest,num,count)
             }
             else{
                 runOnUiThread{
                     binding.secTextView.text = "$sec"
-                    binding.milliTextView.text = "$milli"
+                    //binding.milliTextView.text = "$milli"
                 }
             }
         }
@@ -60,11 +68,11 @@ class ExerciseTimerActivity : AppCompatActivity()  {
         isRestNow = false
         if(count == 1){
             binding.secTextView.text = "150"
-            binding.milliTextView.text = "00"
+            //binding.milliTextView.text = "00"
         }
         else{
             binding.secTextView.text = "30"
-            binding.milliTextView.text = "00"
+            //binding.milliTextView.text = "00"
         }
     }
     private fun init() {
@@ -101,15 +109,20 @@ class ExerciseTimerActivity : AppCompatActivity()  {
                 } else{
                     if(set == 0 && count == 0 && isRestNow == false)
                     {
-                        Toast.makeText(this@ExerciseTimerActivity,"운동기록을 시작합니다.",Toast.LENGTH_SHORT).show()
-                        flag = false
-                        isRestNow = true
-                        pauseTotal(timerTaskTotal)
-                        val recodTime :String = (time / 6000).toString() + "분 "+((time %6000)/100).toString()+"초"
-                        val rdbpath = "MyRecord"
-                        rdb = FirebaseDatabase.getInstance().getReference(rdbpath)
-                        val values = ExerciseRecordData(id, name.toString(), recodTime, date.toString())
-                        rdb.child(id.toString()).setValue(values)
+                        try{
+                            Toast.makeText(this@ExerciseTimerActivity,"운동을 기록합니다.",Toast.LENGTH_SHORT).show()
+                            flag = false
+                            isRestNow = true
+                            pauseTotal(timerTaskTotal)
+                            val recodTime :String = (time / 6000).toString() + "분 "+((time %6000)/100).toString()+"초"
+                            val rdbpath = "MyRecord/items"
+                            rdb = FirebaseDatabase.getInstance().getReference(rdbpath)
+                            val values = ExerciseRecordData(id, name.toString(), recodTime, date.toString())
+                            rdb.child(id.toString()).setValue(values)
+                        }
+                        catch(e:Exception){
+                            Toast.makeText(this@ExerciseTimerActivity,"이미 운동이 기록되었습니다.",android.widget.Toast.LENGTH_SHORT).show()
+                        }
                     }
                     else if(set >= 0 && isRestNow == false){
                         if(set != 0 && count == 0){
