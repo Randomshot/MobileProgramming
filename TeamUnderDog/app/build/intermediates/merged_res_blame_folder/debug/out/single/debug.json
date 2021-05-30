@@ -12,12 +12,12 @@
         "source": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\res\\merged\\debug\\layout_exercise_row.xml.flat",
-        "source": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\exercise_row.xml"
-    },
-    {
         "merged": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\res\\merged\\debug\\layout_exercise_row.xml.flat",
+        "source": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\exercise_row.xml"
     },
     {
         "merged": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",

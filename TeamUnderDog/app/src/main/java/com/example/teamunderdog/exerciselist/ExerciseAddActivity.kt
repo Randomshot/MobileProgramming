@@ -3,12 +3,13 @@ package com.example.teamunderdog.exerciselist
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.teamunderdog.databinding.ActivityExerciseAddBinding
+
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import java.util.*
 
 class ExerciseAddActivity : AppCompatActivity() {
-    lateinit var binding:ActivityExerciseAddBinding
+    lateinit var binding: ActivityExerciseAddBinding
     lateinit var rdb: DatabaseReference
     var date:String?=null
     override fun onCreate(savedInstanceState: Bundle?) {

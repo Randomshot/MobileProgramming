@@ -4,12 +4,12 @@
         "source": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\activity_exercise_list.xml"
     },
     {
-        "merged": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_exercise_add.xml",
-        "source": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\activity_exercise_add.xml"
-    },
-    {
         "merged": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_exercise_list.xml",
         "source": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\fragment_exercise_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_exercise_add.xml",
+        "source": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\activity_exercise_add.xml"
     },
     {
         "merged": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_exercise_timer.xml",

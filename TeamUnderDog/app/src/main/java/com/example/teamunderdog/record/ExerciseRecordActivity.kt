@@ -23,7 +23,7 @@ class ExerciseRecordActivity : AppCompatActivity() {
 
     private fun init() {
         layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
-        rdb = FirebaseDatabase.getInstance().getReference("MyRecord")
+        rdb = FirebaseDatabase.getInstance().getReference("MyRecord/items")
         val query = rdb.limitToLast(50)
         val option = FirebaseRecyclerOptions.Builder<ExerciseRecordData>()
             .setQuery(query, ExerciseRecordData::class.java)
@@ -33,5 +33,6 @@ class ExerciseRecordActivity : AppCompatActivity() {
             recyclerView.layoutManager = layoutManager
             recyclerView.adapter = adapter
         }
+        adapter.startListening()
     }
 }
