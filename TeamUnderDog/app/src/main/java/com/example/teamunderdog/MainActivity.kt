@@ -7,7 +7,6 @@ import com.example.exercisetips.TipsMainActivity
 import com.example.teamunderdog.databinding.ActivityMainBinding
 import com.example.teamunderdog.exerciselist.ExerciseListActivity
 import com.example.teamunderdog.record.ExerciseRecordActivity
-import com.example.teamunderdog.record.ExerciseTimerActivity
 import com.example.teamunderdog.routine.RoutineActivity
 
 class MainActivity : AppCompatActivity() {
@@ -39,11 +38,6 @@ class MainActivity : AppCompatActivity() {
 
             button4.setOnClickListener {
                 val intent = Intent(this@MainActivity, ExerciseRecordActivity::class.java)
-                startActivity(intent)
-            }
-
-            button5.setOnClickListener {
-                val intent = Intent(this@MainActivity, ExerciseTimerActivity::class.java)
                 startActivity(intent)
             }
         }

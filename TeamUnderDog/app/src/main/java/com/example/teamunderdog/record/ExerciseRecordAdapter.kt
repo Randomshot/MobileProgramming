@@ -29,7 +29,7 @@ class ExerciseRecordAdapter(options: FirebaseRecyclerOptions<ExerciseRecordData>
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int, model: ExerciseRecordData) {
         holder.binding.apply {
-            eid.text = model.eId.toString()
+            //eid.text = model.eId.toString()
             ename.text = model.eTitle.toString()
             erecord.text = model.eRecord.toString()
             edate.text = model.eDate.toString()
