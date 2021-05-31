@@ -61,7 +61,8 @@ class AddPhysicalRecordActivity : AppCompatActivity() {
 
             val values = PhysicalData(kind!!,value,date)
             rdb.child(date+"/"+kind!!).setValue(values)
-
+            binding.AddPhysicalRecordSpinner.setSelection(0)
+            binding.AddPhysicalRecordValueEditText.text.clear()
         }
     }
 }

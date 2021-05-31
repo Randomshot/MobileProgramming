@@ -57,7 +57,6 @@ class ShowPhysicalRecordActivity : AppCompatActivity() {
                     val recordKind = recordJson.getString("kind")
                     val recordValue = recordJson.getString("value")
                     if(recordKind == kind){
-                        var dateArr = recordDate.split("-")
                         entries.add(Entry(recordDate.replace("-","").replace("2021","").toFloat(),recordValue.toString().toFloat()))
 
                     }
