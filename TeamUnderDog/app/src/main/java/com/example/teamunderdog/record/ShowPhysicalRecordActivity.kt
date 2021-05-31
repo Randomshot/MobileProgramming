@@ -31,6 +31,11 @@ class ShowPhysicalRecordActivity : AppCompatActivity() {
         init()
     }
 
+    override fun onResume() {
+        super.onResume()
+        initChart("몸무게(kg)")
+        binding.showPhysicalRecordChartSpinner.setSelection(0)
+    }
     fun initChart(kind:String){
         lineChart = null
         lineChart = findViewById(R.id.chart)
@@ -43,7 +48,7 @@ class ShowPhysicalRecordActivity : AppCompatActivity() {
         rdb = FirebaseDatabase.getInstance().getReference(rdbpath)
         val query = rdb.limitToFirst(100)
 
-        rdb.child("/").get().addOnSuccessListener {
+        rdb.child("/").orderByKey().get().addOnSuccessListener {
 
 
             val json = JSONObject(it.value.toString())
