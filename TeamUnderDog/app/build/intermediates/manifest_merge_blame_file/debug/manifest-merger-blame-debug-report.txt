@@ -11,8 +11,8 @@
 9-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:4:5-66
-11-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:4:22-64
+11-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
@@ -21,111 +21,116 @@
 15-->[com.google.firebase:firebase-database:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\b1adb09335a1c99a7afa80f9af48eab0\jetified-firebase-database-20.0.0\AndroidManifest.xml:25:22-76
 16
 17    <application
-17-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:6:5-35:19
+17-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:7:5-33:19
 18        android:allowBackup="true"
-18-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:7:9-35
+18-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:8:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 19-->[androidx.core:core:1.3.2] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\b539402d08034654b441a2757ad17ed3\core-1.3.2\AndroidManifest.xml:24:18-86
 20        android:debuggable="true"
 21        android:extractNativeLibs="false"
 22        android:icon="@mipmap/ic_launcher"
-22-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:8:9-43
+22-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:9:9-43
 23        android:label="@string/app_name"
-23-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:9:9-41
+23-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:10:9-41
 24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:10:9-54
+24-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:11:9-54
 25        android:supportsRtl="true"
-25-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:11:9-35
+25-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:12:9-35
 26        android:testOnly="true"
 27        android:theme="@style/Theme.TeamUnderDog" >
-27-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:12:9-50
-28        <activity
-28-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:13:9-16:20
-29            android:name="com.example.teamunderdog.exerciselist.ExerciseAddActivity"
-29-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:14:13-61
-30            android:label="@string/title_activity_exercise_add" >
-30-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:15:13-64
-31        </activity>
-32        <activity android:name="com.example.exercisetips.TipsViewPageActivity" />
-32-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:17:9-81
-32-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:17:19-79
-33        <activity android:name="com.example.exercisetips.TipsMainActivity" />
-33-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:18:9-77
-33-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:18:19-75
-34        <activity android:name="com.example.teamunderdog.routine.SportsActivity" />
-34-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:20:9-60
-34-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:20:19-57
-35        <activity android:name="com.example.teamunderdog.routine.RoutineActivity" />
+27-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:13:9-50
+28        <activity android:name="com.example.teamunderdog.record.ShowPhysicalRecordActivity" />
+28-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:14:9-80
+28-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:14:19-68
+29        <activity android:name="com.example.teamunderdog.record.AddPhysicalRecordActivity" />
+29-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:15:9-70
+29-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:15:19-67
+30        <activity
+30-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:16:9-18:67
+31            android:name="com.example.teamunderdog.exerciselist.ExerciseAddActivity"
+31-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:17:13-61
+32            android:label="@string/title_activity_exercise_add" />
+32-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:18:13-64
+33        <activity android:name="com.example.exercisetips.TipsViewPageActivity" />
+33-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:19:9-82
+33-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:19:19-79
+34        <activity android:name="com.example.exercisetips.TipsMainActivity" />
+34-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:20:9-78
+34-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:20:19-75
+35        <activity android:name="com.example.teamunderdog.routine.SportsActivity" />
 35-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:21:9-60
-35-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:21:19-58
-36        <activity android:name="com.example.teamunderdog.exerciselist.ExerciseListActivity" />
-36-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:23:9-71
-36-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:23:19-68
-37        <activity android:name="com.example.teamunderdog.record.ExerciseRecordActivity" />
-37-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:25:9-66
-37-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:25:19-64
-38        <activity android:name="com.example.teamunderdog.record.ExerciseTimerActivity" />
-38-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:26:9-65
-38-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:26:19-63
-39        <activity android:name="com.example.teamunderdog.MainActivity" >
-39-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:28:9-34:20
-39-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:28:19-47
-40            <intent-filter>
-40-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:29:13-33:29
-41                <action android:name="android.intent.action.MAIN" />
-41-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:30:17-69
-41-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:30:25-66
-42
-43                <category android:name="android.intent.category.LAUNCHER" />
-43-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:32:17-77
-43-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:32:27-74
-44            </intent-filter>
-45        </activity>
-46
-47        <service
-47-->[com.google.firebase:firebase-database:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\b1adb09335a1c99a7afa80f9af48eab0\jetified-firebase-database-20.0.0\AndroidManifest.xml:29:9-35:19
-48            android:name="com.google.firebase.components.ComponentDiscoveryService"
-48-->[com.google.firebase:firebase-database:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\b1adb09335a1c99a7afa80f9af48eab0\jetified-firebase-database-20.0.0\AndroidManifest.xml:30:13-84
-49            android:directBootAware="true"
-49-->[com.google.firebase:firebase-common:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\2560950f5ee0c5b686c9a67ee0002660\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
-50            android:exported="false" >
-50-->[com.google.firebase:firebase-database:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\b1adb09335a1c99a7afa80f9af48eab0\jetified-firebase-database-20.0.0\AndroidManifest.xml:31:13-37
-51            <meta-data
-51-->[com.google.firebase:firebase-database:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\b1adb09335a1c99a7afa80f9af48eab0\jetified-firebase-database-20.0.0\AndroidManifest.xml:32:13-34:85
-52                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-52-->[com.google.firebase:firebase-database:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\b1adb09335a1c99a7afa80f9af48eab0\jetified-firebase-database-20.0.0\AndroidManifest.xml:33:17-109
-53                android:value="com.google.firebase.components.ComponentRegistrar" />
-53-->[com.google.firebase:firebase-database:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\b1adb09335a1c99a7afa80f9af48eab0\jetified-firebase-database-20.0.0\AndroidManifest.xml:34:17-82
-54        </service>
-55
-56        <provider
-56-->[com.google.firebase:firebase-common:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\2560950f5ee0c5b686c9a67ee0002660\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
-57            android:name="com.google.firebase.provider.FirebaseInitProvider"
-57-->[com.google.firebase:firebase-common:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\2560950f5ee0c5b686c9a67ee0002660\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
-58            android:authorities="com.example.teamunderdog.firebaseinitprovider"
-58-->[com.google.firebase:firebase-common:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\2560950f5ee0c5b686c9a67ee0002660\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
-59            android:directBootAware="true"
-59-->[com.google.firebase:firebase-common:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\2560950f5ee0c5b686c9a67ee0002660\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
-60            android:exported="false"
-60-->[com.google.firebase:firebase-common:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\2560950f5ee0c5b686c9a67ee0002660\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
-61            android:initOrder="100" />
-61-->[com.google.firebase:firebase-common:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\2560950f5ee0c5b686c9a67ee0002660\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
-62
-63        <activity
-63-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\ffe0738efec363d8b0c8fa00cc5e8e32\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-64            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-64-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\ffe0738efec363d8b0c8fa00cc5e8e32\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-65            android:exported="false"
-65-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\ffe0738efec363d8b0c8fa00cc5e8e32\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-66-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\ffe0738efec363d8b0c8fa00cc5e8e32\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-67
-68        <meta-data
-68-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\a3d6b172b5090ee3978399d7c887613f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-69            android:name="com.google.android.gms.version"
-69-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\a3d6b172b5090ee3978399d7c887613f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-70            android:value="@integer/google_play_services_version" />
-70-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\a3d6b172b5090ee3978399d7c887613f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-71    </application>
-72
-73</manifest>
+35-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:21:19-57
+36        <activity android:name="com.example.teamunderdog.routine.RoutineActivity" />
+36-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:22:9-61
+36-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:22:19-58
+37        <activity android:name="com.example.teamunderdog.exerciselist.ExerciseListActivity" />
+37-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:23:9-71
+37-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:23:19-68
+38        <activity android:name="com.example.teamunderdog.record.ExerciseRecordActivity" />
+38-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:24:9-67
+38-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:24:19-64
+39        <activity android:name="com.example.teamunderdog.record.ExerciseTimerActivity" />
+39-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:25:9-66
+39-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:25:19-63
+40        <activity android:name="com.example.teamunderdog.MainActivity" >
+40-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:26:9-32:20
+40-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:26:19-47
+41            <intent-filter>
+41-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:27:13-31:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:28:17-69
+42-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:28:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:30:17-77
+44-->C:\Users\s_ghgus7175\Desktop\merge\MobileProgramming\TeamUnderDog\app\src\main\AndroidManifest.xml:30:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <service
+48-->[com.google.firebase:firebase-database:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\b1adb09335a1c99a7afa80f9af48eab0\jetified-firebase-database-20.0.0\AndroidManifest.xml:29:9-35:19
+49            android:name="com.google.firebase.components.ComponentDiscoveryService"
+49-->[com.google.firebase:firebase-database:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\b1adb09335a1c99a7afa80f9af48eab0\jetified-firebase-database-20.0.0\AndroidManifest.xml:30:13-84
+50            android:directBootAware="true"
+50-->[com.google.firebase:firebase-common:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\2560950f5ee0c5b686c9a67ee0002660\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+51            android:exported="false" >
+51-->[com.google.firebase:firebase-database:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\b1adb09335a1c99a7afa80f9af48eab0\jetified-firebase-database-20.0.0\AndroidManifest.xml:31:13-37
+52            <meta-data
+52-->[com.google.firebase:firebase-database:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\b1adb09335a1c99a7afa80f9af48eab0\jetified-firebase-database-20.0.0\AndroidManifest.xml:32:13-34:85
+53                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+53-->[com.google.firebase:firebase-database:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\b1adb09335a1c99a7afa80f9af48eab0\jetified-firebase-database-20.0.0\AndroidManifest.xml:33:17-109
+54                android:value="com.google.firebase.components.ComponentRegistrar" />
+54-->[com.google.firebase:firebase-database:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\b1adb09335a1c99a7afa80f9af48eab0\jetified-firebase-database-20.0.0\AndroidManifest.xml:34:17-82
+55        </service>
+56
+57        <provider
+57-->[com.google.firebase:firebase-common:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\2560950f5ee0c5b686c9a67ee0002660\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+58            android:name="com.google.firebase.provider.FirebaseInitProvider"
+58-->[com.google.firebase:firebase-common:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\2560950f5ee0c5b686c9a67ee0002660\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+59            android:authorities="com.example.teamunderdog.firebaseinitprovider"
+59-->[com.google.firebase:firebase-common:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\2560950f5ee0c5b686c9a67ee0002660\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+60            android:directBootAware="true"
+60-->[com.google.firebase:firebase-common:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\2560950f5ee0c5b686c9a67ee0002660\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+61            android:exported="false"
+61-->[com.google.firebase:firebase-common:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\2560950f5ee0c5b686c9a67ee0002660\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+62            android:initOrder="100" />
+62-->[com.google.firebase:firebase-common:20.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\2560950f5ee0c5b686c9a67ee0002660\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+63
+64        <activity
+64-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\ffe0738efec363d8b0c8fa00cc5e8e32\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+65            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+65-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\ffe0738efec363d8b0c8fa00cc5e8e32\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+66            android:exported="false"
+66-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\ffe0738efec363d8b0c8fa00cc5e8e32\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+67            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+67-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\ffe0738efec363d8b0c8fa00cc5e8e32\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+68
+69        <meta-data
+69-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\a3d6b172b5090ee3978399d7c887613f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+70            android:name="com.google.android.gms.version"
+70-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\a3d6b172b5090ee3978399d7c887613f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+71            android:value="@integer/google_play_services_version" />
+71-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\s_ghgus7175\.gradle\caches\transforms-2\files-2.1\a3d6b172b5090ee3978399d7c887613f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+72    </application>
+73
+74</manifest>

@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_physical_record.xml",
+        "source": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\activity_add_physical_record.xml"
+    },
+    {
         "merged": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_exercise_list.xml",
         "source": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\activity_exercise_list.xml"
     },
@@ -58,6 +62,10 @@
     {
         "merged": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_routine.xml",
         "source": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\activity_routine.xml"
+    },
+    {
+        "merged": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_show_physical_record.xml",
+        "source": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\activity_show_physical_record.xml"
     },
     {
         "merged": "C:\\Users\\s_ghgus7175\\Desktop\\merge\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_tips_image.xml",

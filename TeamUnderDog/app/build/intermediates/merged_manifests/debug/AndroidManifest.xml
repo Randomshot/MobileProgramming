@@ -25,10 +25,11 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.TeamUnderDog" >
+        <activity android:name="com.example.teamunderdog.record.ShowPhysicalRecordActivity" />
+        <activity android:name="com.example.teamunderdog.record.AddPhysicalRecordActivity" />
         <activity
             android:name="com.example.teamunderdog.exerciselist.ExerciseAddActivity"
-            android:label="@string/title_activity_exercise_add" >
-        </activity>
+            android:label="@string/title_activity_exercise_add" />
         <activity android:name="com.example.exercisetips.TipsViewPageActivity" />
         <activity android:name="com.example.exercisetips.TipsMainActivity" />
         <activity android:name="com.example.teamunderdog.routine.SportsActivity" />
