@@ -3,7 +3,9 @@ package com.example.exercisetips
 import android.os.Bundle
 import android.webkit.WebViewClient
 import androidx.appcompat.app.AppCompatActivity
-import com.example.exercisetips.databinding.ExerciseTipPageBinding
+import com.example.teamunderdog.databinding.ExerciseTipPageBinding
+
+
 
 class TipsViewPageActivity : AppCompatActivity(){
 

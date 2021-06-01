@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id = "@+id/CategoryRecord"
+        android:title = "Record"
+        />
+    <item android:id = "@+id/CategoryTips"
+        android:title = "Tips"
+        />
+    <item android:id = "@+id/CategoryRoutine"
+        android:title = "Routine"
+        />
+</menu>

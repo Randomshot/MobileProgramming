@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="default_web_client_id" translatable="false">484042148903-pqc9r45mplfnecjjcruj5peav0tnjfs6.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://mobileprogramming-f88c8-default-rtdb.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">484042148903</string>
     <string name="google_api_key" translatable="false">AIzaSyBSh_VVkRUfc8OeNg07IL0nGfHfSNzGujA</string>
-    <string name="google_app_id" translatable="false">1:484042148903:android:d8412d20c8e6c348e91202</string>
+    <string name="google_app_id" translatable="false">1:484042148903:android:41e98b9b2e682adee91202</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBSh_VVkRUfc8OeNg07IL0nGfHfSNzGujA</string>
     <string name="google_storage_bucket" translatable="false">mobileprogramming-f88c8.appspot.com</string>
     <string name="project_id" translatable="false">mobileprogramming-f88c8</string>

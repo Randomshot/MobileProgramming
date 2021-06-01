@@ -1,8 +1,38 @@
-com/example/exercisetips/BuildConfig.java
- com.example.exercisetips.BuildConfig
-com/example/exercisetips/databinding/ExerciseTipPageBinding.java
- com.example.exercisetips.databinding.ExerciseTipPageBinding
-com/example/exercisetips/databinding/FragmentTipsImageBinding.java
- com.example.exercisetips.databinding.FragmentTipsImageBinding
-com/example/exercisetips/databinding/ActivityTipsMainBinding.java
- com.example.exercisetips.databinding.ActivityTipsMainBinding
+com/example/teamunderdog/databinding/FragmentTipsImageBinding.java
+ com.example.teamunderdog.databinding.FragmentTipsImageBinding
+com/example/teamunderdog/databinding/ActivitySportsBinding.java
+ com.example.teamunderdog.databinding.ActivitySportsBinding
+com/example/teamunderdog/databinding/ActivityExerciseAddBinding.java
+ com.example.teamunderdog.databinding.ActivityExerciseAddBinding
+com/example/teamunderdog/databinding/RowBinding.java
+ com.example.teamunderdog.databinding.RowBinding
+com/example/teamunderdog/databinding/ExerciseRowBinding.java
+ com.example.teamunderdog.databinding.ExerciseRowBinding
+com/example/teamunderdog/databinding/ActivityExerciseTimerBinding.java
+ com.example.teamunderdog.databinding.ActivityExerciseTimerBinding
+com/example/teamunderdog/databinding/ActivityExerciseRecordBinding.java
+ com.example.teamunderdog.databinding.ActivityExerciseRecordBinding
+com/example/teamunderdog/databinding/RoutineRowBinding.java
+ com.example.teamunderdog.databinding.RoutineRowBinding
+com/example/teamunderdog/databinding/ExerciseTipPageBinding.java
+ com.example.teamunderdog.databinding.ExerciseTipPageBinding
+com/example/teamunderdog/databinding/SportsRowBinding.java
+ com.example.teamunderdog.databinding.SportsRowBinding
+com/example/teamunderdog/BuildConfig.java
+ com.example.teamunderdog.BuildConfig
+com/example/teamunderdog/databinding/ExerciseRecordRowBinding.java
+ com.example.teamunderdog.databinding.ExerciseRecordRowBinding
+com/example/teamunderdog/databinding/ActivityTipsMainBinding.java
+ com.example.teamunderdog.databinding.ActivityTipsMainBinding
+com/example/teamunderdog/databinding/MainDrawerHeaderBinding.java
+ com.example.teamunderdog.databinding.MainDrawerHeaderBinding
+com/example/teamunderdog/databinding/MainToolbarBinding.java
+ com.example.teamunderdog.databinding.MainToolbarBinding
+com/example/teamunderdog/databinding/FragmentExerciseListBinding.java
+ com.example.teamunderdog.databinding.FragmentExerciseListBinding
+com/example/teamunderdog/databinding/ActivityExerciseListBinding.java
+ com.example.teamunderdog.databinding.ActivityExerciseListBinding
+com/example/teamunderdog/databinding/ActivityMainBinding.java
+ com.example.teamunderdog.databinding.ActivityMainBinding
+com/example/teamunderdog/databinding/ActivityRoutineBinding.java
+ com.example.teamunderdog.databinding.ActivityRoutineBinding

@@ -3,7 +3,7 @@ package com.example.exercisetips
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import com.example.exercisetips.databinding.ActivityTipsMainBinding
+import com.example.teamunderdog.databinding.ActivityTipsMainBinding
 import com.google.android.material.tabs.TabLayoutMediator
 
 class TipsMainActivity : AppCompatActivity() {

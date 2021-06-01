@@ -7,7 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import com.example.exercisetips.databinding.FragmentTipsImageBinding
+import com.example.teamunderdog.R
+import com.example.teamunderdog.databinding.FragmentTipsImageBinding
 
 class TipsImageFragment : Fragment() {
 
@@ -21,7 +22,8 @@ class TipsImageFragment : Fragment() {
 
     val tipsViewModel: TipsViewModel by activityViewModels()
 
-    val tipsimglist = arrayListOf<Int>(R.drawable.benchpress, R.drawable.squat, R.drawable.dumbellrow,
+    val tipsimglist = arrayListOf<Int>(
+        R.drawable.benchpress, R.drawable.squat, R.drawable.dumbellrow,
                                     R.drawable.pushup, R.drawable.plank, R.drawable.lounge)
 
     override fun onCreateView(

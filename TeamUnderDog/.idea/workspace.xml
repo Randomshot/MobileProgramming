@@ -8,6 +8,24 @@
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="84adcb1d-a322-49b0-9d90-5cb98185d289" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +51,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="KotlinCodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
@@ -44,17 +65,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MobileProgramming/TeamUnderDog" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/values" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.example.exercisetips" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lsd\Desktop\SDL\activity\ExerciseTips\app\src\main\res\drawable-v24" />
-      <recent name="C:\Users\lsd\Desktop\SDL\activity\ExerciseTips\app\src\main\res\layout" />
+      <recent name="C:\Users\lsd\Desktop\SDL\activity\MobileProgramming\TeamUnderDog\app\src\main\res\drawable-v24" />
+      <recent name="C:\Users\lsd\Desktop\SDL\activity\MobileProgramming\TeamUnderDog\app\src\main\res\values" />
+      <recent name="C:\Users\lsd\Desktop\SDL\activity\MobileProgramming\TeamUnderDog\app\src\main\res\layout" />
+      <recent name="C:\Users\lsd\Desktop\SDL\activity\MobileProgramming\TeamUnderDog\app\src\main\java\com\example" />
+      <recent name="C:\Users\lsd\Desktop\SDL\activity\MobileProgramming\TeamUnderDog\app\src\main\res" />
     </key>
   </component>
   <component name="RunManager">
@@ -136,11 +163,26 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="1104" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1621691277072">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1104" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1621691277072" />
+    <state x="453" y="299" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1622527743569">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="453" y="299" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1622527743569" />
     <state x="954" y="279" key="AndroidCreateResourceFileDialog" timestamp="1621694410356">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -169,9 +211,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1108" height="239" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1621707799606" />
-    <state x="1168" y="302" key="chooseDestDirectoryDialog" timestamp="1621692354697">
+    <state x="1168" y="302" key="chooseDestDirectoryDialog" timestamp="1622527928074">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1168" y="302" key="chooseDestDirectoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1621692354697" />
+    <state x="1168" y="302" key="chooseDestDirectoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1622527928074" />
   </component>
 </project>
