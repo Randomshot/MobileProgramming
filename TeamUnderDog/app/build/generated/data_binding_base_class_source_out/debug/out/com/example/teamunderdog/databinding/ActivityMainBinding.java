@@ -5,9 +5,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import com.example.teamunderdog.R;
 import java.lang.NullPointerException;
@@ -19,29 +21,29 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button button;
+  public final Button exerciseinfo;
 
   @NonNull
-  public final Button button2;
+  public final Button exercisereport;
 
   @NonNull
-  public final Button button3;
+  public final LinearLayout menuslayout;
 
   @NonNull
-  public final Button button4;
+  public final RecyclerView routinerecycler;
 
   @NonNull
-  public final Button button5;
+  public final Button routineupdate;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button button,
-      @NonNull Button button2, @NonNull Button button3, @NonNull Button button4,
-      @NonNull Button button5) {
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button exerciseinfo,
+      @NonNull Button exercisereport, @NonNull LinearLayout menuslayout,
+      @NonNull RecyclerView routinerecycler, @NonNull Button routineupdate) {
     this.rootView = rootView;
-    this.button = button;
-    this.button2 = button2;
-    this.button3 = button3;
-    this.button4 = button4;
-    this.button5 = button5;
+    this.exerciseinfo = exerciseinfo;
+    this.exercisereport = exercisereport;
+    this.menuslayout = menuslayout;
+    this.routinerecycler = routinerecycler;
+    this.routineupdate = routineupdate;
   }
 
   @Override
@@ -71,38 +73,38 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button;
-      Button button = rootView.findViewById(id);
-      if (button == null) {
+      id = R.id.exerciseinfo;
+      Button exerciseinfo = rootView.findViewById(id);
+      if (exerciseinfo == null) {
         break missingId;
       }
 
-      id = R.id.button2;
-      Button button2 = rootView.findViewById(id);
-      if (button2 == null) {
+      id = R.id.exercisereport;
+      Button exercisereport = rootView.findViewById(id);
+      if (exercisereport == null) {
         break missingId;
       }
 
-      id = R.id.button3;
-      Button button3 = rootView.findViewById(id);
-      if (button3 == null) {
+      id = R.id.menuslayout;
+      LinearLayout menuslayout = rootView.findViewById(id);
+      if (menuslayout == null) {
         break missingId;
       }
 
-      id = R.id.button4;
-      Button button4 = rootView.findViewById(id);
-      if (button4 == null) {
+      id = R.id.routinerecycler;
+      RecyclerView routinerecycler = rootView.findViewById(id);
+      if (routinerecycler == null) {
         break missingId;
       }
 
-      id = R.id.button5;
-      Button button5 = rootView.findViewById(id);
-      if (button5 == null) {
+      id = R.id.routineupdate;
+      Button routineupdate = rootView.findViewById(id);
+      if (routineupdate == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, button, button2, button3, button4,
-          button5);
+      return new ActivityMainBinding((ConstraintLayout) rootView, exerciseinfo, exercisereport,
+          menuslayout, routinerecycler, routineupdate);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

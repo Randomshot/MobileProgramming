@@ -20,6 +20,8 @@ com/example/teamunderdog/databinding/SportsRowBinding.java
  com.example.teamunderdog.databinding.SportsRowBinding
 com/example/teamunderdog/BuildConfig.java
  com.example.teamunderdog.BuildConfig
+com/example/teamunderdog/databinding/ActivityRoutineExerciseBinding.java
+ com.example.teamunderdog.databinding.ActivityRoutineExerciseBinding
 com/example/teamunderdog/databinding/ExerciseRecordRowBinding.java
  com.example.teamunderdog.databinding.ExerciseRecordRowBinding
 com/example/teamunderdog/databinding/ActivityTipsMainBinding.java

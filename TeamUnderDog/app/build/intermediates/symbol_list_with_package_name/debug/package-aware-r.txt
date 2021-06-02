@@ -1749,6 +1749,7 @@ id CTRL
 id FUNCTION
 id META
 id NO_DEBUG
+id Routinename
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -1845,11 +1846,6 @@ id blankTextView2
 id blocking
 id bottom
 id bounce
-id button
-id button2
-id button3
-id button4
-id button5
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -1921,7 +1917,6 @@ id easeInOut
 id easeOut
 id edate
 id edit_query
-id eid
 id elastic
 id ename
 id end
@@ -1937,6 +1932,8 @@ id exerciseRecyclerView
 id exerciseSetsNumTextView
 id exerciseTitleTextView
 id exerciseWeightTextView
+id exerciseinfo
+id exercisereport
 id exitUntilCollapsed
 id exitsrn
 id expand_activities_button
@@ -2020,6 +2017,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id media_actions
+id menuslayout
 id message
 id middle
 id milliTextView
@@ -2102,7 +2100,9 @@ id right_side
 id rounded
 id routineid
 id routinename
+id routinerecycler
 id routinetext
+id routineupdate
 id row_index_key
 id sCountEdit
 id sIdEdit
@@ -2150,6 +2150,7 @@ id split_action_bar
 id sportscount
 id sportsid
 id sportsname
+id sportsrecyclerView
 id spread
 id spread_inside
 id square
@@ -2197,7 +2198,6 @@ id textView4
 id textView5
 id textView7
 id textView8
-id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2308,6 +2308,7 @@ layout activity_exercise_record
 layout activity_exercise_timer
 layout activity_main
 layout activity_routine
+layout activity_routine_exercise
 layout activity_sports
 layout activity_tips_main
 layout custom_dialog
