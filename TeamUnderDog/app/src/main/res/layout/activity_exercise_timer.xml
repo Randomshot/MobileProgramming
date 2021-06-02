@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context=".ExerciseTimerActivity">
+    tools:context=".record.ExerciseTimerActivity">
 
     <TextView
         android:id="@+id/setNum"
@@ -50,10 +50,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
+            android:cursorVisible="false"
             android:paddingTop="60dp"
             android:text="00"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="30dp"
+            android:visibility="gone"
             app:layout_constraintBaseline_toBaselineOf="@+id/secTextView"
             app:layout_constraintStart_toEndOf="@+id/secTextView" />
 
