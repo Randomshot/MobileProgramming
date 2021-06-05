@@ -1776,6 +1776,7 @@ id BOTTOM_START
 id CTRL
 id CategoryRecord
 id CategoryRoutine
+id CategoryTimer
 id CategoryTips
 id FUNCTION
 id META
@@ -2366,6 +2367,7 @@ layout exercise_tip_page
 layout fragment_exercise_list
 layout fragment_tips_image
 layout main_drawer_header
+layout main_home
 layout main_toolbar
 layout material_chip_input_combo
 layout material_clock_display

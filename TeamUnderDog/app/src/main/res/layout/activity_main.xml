@@ -14,7 +14,7 @@
         android:id="@+id/showing_activity"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        layout="@layout/activity_exercise_list" />
+        layout="@layout/main_home" />
 
     <!--자식 레이아웃. Navigation Drawer-->
     <com.google.android.material.navigation.NavigationView

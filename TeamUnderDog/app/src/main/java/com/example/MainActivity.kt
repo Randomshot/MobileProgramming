@@ -9,6 +9,7 @@ import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.ui.AppBarConfiguration
 import com.example.exercisetips.TipsMainActivity
+import com.example.teamunderdog.exerciselist.ExerciseListActivity
 import com.example.teamunderdog.record.ExerciseTimerActivity
 import com.example.teamunderdog.routine.RoutineActivity
 import com.google.android.material.navigation.NavigationView
@@ -28,6 +29,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_baseline_menu_24)
+        supportActionBar?.setDisplayShowTitleEnabled(false)
 
         val drawerLayout: DrawerLayout = findViewById(R.id.main_drawer_layout)
         val navView: NavigationView = findViewById(R.id.main_navigationView)
@@ -48,6 +50,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.CategoryRecord -> {
+                val intent = Intent(this, ExerciseListActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.CategoryTimer -> {
                 val intent = Intent(this, ExerciseTimerActivity::class.java)
                 startActivity(intent)
             }

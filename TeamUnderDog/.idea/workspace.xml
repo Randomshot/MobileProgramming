@@ -36,7 +36,7 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_5X_API_28]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -66,7 +66,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/values" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
@@ -77,9 +77,9 @@
       <recent name="com.example" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lsd\Desktop\SDL\activity\MobileProgramming\TeamUnderDog\app\src\main\res\layout" />
       <recent name="C:\Users\lsd\Desktop\SDL\activity\MobileProgramming\TeamUnderDog\app\src\main\res\drawable-v24" />
       <recent name="C:\Users\lsd\Desktop\SDL\activity\MobileProgramming\TeamUnderDog\app\src\main\res\values" />
-      <recent name="C:\Users\lsd\Desktop\SDL\activity\MobileProgramming\TeamUnderDog\app\src\main\res\layout" />
       <recent name="C:\Users\lsd\Desktop\SDL\activity\MobileProgramming\TeamUnderDog\app\src\main\java\com\example" />
       <recent name="C:\Users\lsd\Desktop\SDL\activity\MobileProgramming\TeamUnderDog\app\src\main\res" />
     </key>
@@ -173,6 +173,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1104" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1621691277072">

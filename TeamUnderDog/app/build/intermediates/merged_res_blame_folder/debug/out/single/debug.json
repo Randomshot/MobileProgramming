@@ -112,6 +112,10 @@
         "source": "C:\\Users\\lsd\\Desktop\\SDL\\activity\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\routine_row.xml"
     },
     {
+        "merged": "C:\\Users\\lsd\\Desktop\\SDL\\activity\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_home.xml.flat",
+        "source": "C:\\Users\\lsd\\Desktop\\SDL\\activity\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\main_home.xml"
+    },
+    {
         "merged": "C:\\Users\\lsd\\Desktop\\SDL\\activity\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_exercise_timer.xml.flat",
         "source": "C:\\Users\\lsd\\Desktop\\SDL\\activity\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\activity_exercise_timer.xml"
     },

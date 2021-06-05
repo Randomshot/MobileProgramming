@@ -25,11 +25,11 @@ public final class ActivityMainBinding implements ViewBinding {
   public final NavigationView mainNavigationView;
 
   @NonNull
-  public final ActivityExerciseListBinding showingActivity;
+  public final MainHomeBinding showingActivity;
 
   private ActivityMainBinding(@NonNull DrawerLayout rootView,
       @NonNull DrawerLayout mainDrawerLayout, @NonNull NavigationView mainNavigationView,
-      @NonNull ActivityExerciseListBinding showingActivity) {
+      @NonNull MainHomeBinding showingActivity) {
     this.rootView = rootView;
     this.mainDrawerLayout = mainDrawerLayout;
     this.mainNavigationView = mainNavigationView;
@@ -76,7 +76,7 @@ public final class ActivityMainBinding implements ViewBinding {
       if (showingActivity == null) {
         break missingId;
       }
-      ActivityExerciseListBinding binding_showingActivity = ActivityExerciseListBinding.bind(showingActivity);
+      MainHomeBinding binding_showingActivity = MainHomeBinding.bind(showingActivity);
 
       return new ActivityMainBinding((DrawerLayout) rootView, mainDrawerLayout, mainNavigationView,
           binding_showingActivity);

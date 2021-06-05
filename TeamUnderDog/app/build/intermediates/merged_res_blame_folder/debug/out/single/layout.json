@@ -40,6 +40,10 @@
         "source": "C:\\Users\\lsd\\Desktop\\SDL\\activity\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\activity_routine.xml"
     },
     {
+        "merged": "C:\\Users\\lsd\\Desktop\\SDL\\activity\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\main_home.xml",
+        "source": "C:\\Users\\lsd\\Desktop\\SDL\\activity\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\main_home.xml"
+    },
+    {
         "merged": "C:\\Users\\lsd\\Desktop\\SDL\\activity\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_exercise_add.xml",
         "source": "C:\\Users\\lsd\\Desktop\\SDL\\activity\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\activity_exercise_add.xml"
     },

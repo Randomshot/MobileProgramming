@@ -8,15 +8,6 @@
     android:background="#142196F3"
     tools:context=".exerciselist.ExerciseListActivity">
 
-    <androidx.appcompat.widget.Toolbar
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/main_toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:minHeight="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
-        />
-
     <DatePicker
         android:id="@+id/datePicker"
         android:layout_width="match_parent"
