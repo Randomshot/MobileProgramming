@@ -39,7 +39,6 @@ class ExerciseRecordActivity : AppCompatActivity() {
             total += adapter.getItem(i-1).eRecord.toInt()
         }  //이부분이 왜 안될까요???
         binding.totalRecord.setText("총 운동 시간 : "+(total / 60).toString() + "분 "+(total%60).toString()+"초")
-        binding.totalRecord.setText("총 운동 시간 : "+(total / 60).toString() + "분 "+(total%60).toString()+"초")
         binding.recyclerView.layoutManager = layoutManager
         binding.recyclerView.adapter = adapter
         adapter.startListening()
