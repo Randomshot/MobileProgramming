@@ -36,7 +36,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         val navView: NavigationView = findViewById(R.id.main_navigationView)
 
         navView?.setNavigationItemSelectedListener(this)
+
     }
+
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val drawerLayout: DrawerLayout = findViewById(R.id.main_drawer_layout)
@@ -73,6 +75,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         }
         return false
     }
+
 }
 
 
