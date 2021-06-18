@@ -31,6 +31,7 @@ class ExerciseRecordAdapter(options: FirebaseRecyclerOptions<ExerciseRecordData>
         holder.binding.apply {
             //eid.text = model.eId.toString()
             ename.text = model.eTitle.toString()
+            //erecord.text = model.eRecord.toString()
             erecord.text = (model.eRecord / 60).toString() + "분 "+(model.eRecord %60).toString()+"초"
             edate.text = model.eDate.toString()
         }
