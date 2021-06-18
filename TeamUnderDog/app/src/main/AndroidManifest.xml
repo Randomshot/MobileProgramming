@@ -24,7 +24,8 @@
 
         <activity android:name=".record.ExerciseRecordActivity"/>
         <activity android:name=".record.ExerciseTimerActivity"/>
-
+        <activity android:name=".record.AddPhysicalRecordActivity"/>
+        <activity android:name=".record.ShowPhysicalRecordActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

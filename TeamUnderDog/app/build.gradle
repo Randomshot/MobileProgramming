@@ -3,7 +3,9 @@ plugins {
     id 'kotlin-android'
     id 'com.google.gms.google-services'
 }
-
+repositories {
+    maven { url "https://jitpack.io" }
+}
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
@@ -55,5 +57,5 @@ dependencies {
     implementation 'androidx.navigation:navigation-ui:2.3.5'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-
+    compile 'com.github.PhilJay:MPAndroidChart:v3.0.2'
 }

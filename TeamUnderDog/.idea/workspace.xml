@@ -27,7 +27,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84adcb1d-a322-49b0-9d90-5cb98185d289" name="Default Changelist" comment="" />
+    <list default="true" id="84adcb1d-a322-49b0-9d90-5cb98185d289" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/record/AddPhysicalRecordActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/record/GraphData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/record/PhysicalData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/record/ShowPhysicalRecordActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_physical_record.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_show_physical_record.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,11 +87,11 @@
       <recent name="com.example" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\s_ghgus7175\Desktop\MobileProgramming\TeamUnderDog\app\src\main\res\layout" />
+      <recent name="C:\Users\s_ghgus7175\Desktop\MobileProgramming\TeamUnderDog\app\src\main\java\com\example\record" />
       <recent name="C:\Users\lsd\Desktop\SDL\activity\MobileProgramming\TeamUnderDog\app\src\main\res\layout" />
       <recent name="C:\Users\lsd\Desktop\SDL\activity\MobileProgramming\TeamUnderDog\app\src\main\res\drawable-v24" />
       <recent name="C:\Users\lsd\Desktop\SDL\activity\MobileProgramming\TeamUnderDog\app\src\main\res\values" />
-      <recent name="C:\Users\lsd\Desktop\SDL\activity\MobileProgramming\TeamUnderDog\app\src\main\java\com\example" />
-      <recent name="C:\Users\lsd\Desktop\SDL\activity\MobileProgramming\TeamUnderDog\app\src\main\res" />
     </key>
   </component>
   <component name="RunManager">
@@ -192,9 +202,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1126" y="270" key="AndroidProcessChooserDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1621704275761" />
-    <state x="1154" y="279" key="FileChooserDialogImpl" timestamp="1621685646571">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="1154" y="276" key="FileChooserDialogImpl" timestamp="1624034728212">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="1154" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1624034728212" />
     <state x="1154" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1621685646571" />
     <state width="1108" height="239" key="GridCell.Tab.0.bottom" timestamp="1621707799606">
       <screen x="0" y="0" width="1920" height="1050" />

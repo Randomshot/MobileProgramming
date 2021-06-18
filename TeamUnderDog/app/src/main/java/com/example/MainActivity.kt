@@ -11,6 +11,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import com.example.exercisetips.TipsMainActivity
 import com.example.teamunderdog.exerciselist.ExerciseListActivity
 import com.example.teamunderdog.record.ExerciseTimerActivity
+import com.example.teamunderdog.record.ShowPhysicalRecordActivity
 import com.example.teamunderdog.routine.RoutineActivity
 import com.google.android.material.navigation.NavigationView
 
@@ -63,6 +64,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             }
             R.id.CategoryRoutine -> {
                 val intent = Intent(this, RoutineActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.CategoryPhysicalRecord->{
+                val intent = Intent(this, ShowPhysicalRecordActivity::class.java)
                 startActivity(intent)
             }
         }
