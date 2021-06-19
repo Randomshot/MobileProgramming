@@ -27,6 +27,13 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim fragment_close_enter
+anim fragment_close_exit
+anim fragment_fade_enter
+anim fragment_fade_exit
+anim fragment_fast_out_extra_slow_in
+anim fragment_open_enter
+anim fragment_open_exit
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
@@ -1247,6 +1254,7 @@ dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen action_bar_size
 dimen appcompat_dialog_background_inset
+dimen box_inset_layout_padding
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -1318,6 +1326,7 @@ dimen hint_alpha_material_dark
 dimen hint_alpha_material_light
 dimen hint_pressed_alpha_material_dark
 dimen hint_pressed_alpha_material_light
+dimen inner_frame_layout_padding
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
@@ -1649,6 +1658,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable benchpress
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1682,6 +1692,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dumbellrow
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_clock_black_24dp
@@ -1692,6 +1703,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable lounge
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1724,6 +1736,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable plank
+drawable pushup
+drawable squat
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1734,6 +1749,7 @@ id CTRL
 id FUNCTION
 id META
 id NO_DEBUG
+id Routinename
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -1796,6 +1812,17 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addExerciseBtn
+id addExerciseCompnentBtn
+id addExerciseComponentCancelBtn
+id addExerciseCountEditText
+id addExerciseCountTextView
+id addExerciseSetsNumEditText
+id addExerciseSetsNumTextView
+id addExerciseTitleEditText
+id addExerciseTitleTextView
+id addExerciseWeightEditText
+id addExerciseWeightTextView
 id adjust_height
 id adjust_width
 id alertTitle
@@ -1814,6 +1841,8 @@ id barrier
 id baseline
 id beginOnFirstDraw
 id beginning
+id blankTextView1
+id blankTextView2
 id blocking
 id bottom
 id bounce
@@ -1848,11 +1877,13 @@ id contentPanel
 id contiguous
 id coordinator
 id cos
+id countNum
 id counterclockwise
 id custom
 id customPanel
 id cut
 id dark
+id datePicker
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -1884,13 +1915,25 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id edate
 id edit_query
 id elastic
+id ename
 id end
 id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id erecord
+id exerciseCountTextView
+id exerciseListFrameLayout
+id exerciseListRecyclerView
+id exerciseRecyclerView
+id exerciseSetsNumTextView
+id exerciseTitleTextView
+id exerciseWeightTextView
+id exerciseinfo
+id exercisereport
 id exitUntilCollapsed
 id exitsrn
 id expand_activities_button
@@ -1907,6 +1950,7 @@ id fixed
 id flip
 id floating
 id forever
+id fragment_container_view_tag
 id ghost_view
 id ghost_view_holder
 id gone
@@ -1928,6 +1972,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id info
 id insertrtn
 id insertstn
@@ -1948,6 +1993,7 @@ id light
 id line1
 id line3
 id linear
+id linearLayout
 id listMode
 id list_item
 id masked
@@ -1971,8 +2017,13 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id media_actions
+<<<<<<< HEAD
+=======
+id menuslayout
+>>>>>>> main
 id message
 id middle
+id milliTextView
 id mini
 id month_grid
 id month_navigation_bar
@@ -2007,6 +2058,7 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id navigation_header_container
 id never
+id noDataTextView
 id noScroll
 id none
 id normal
@@ -2042,6 +2094,10 @@ id radio
 id ratio
 id rectangles
 id recyclerView
+<<<<<<< HEAD
+=======
+id restBtn
+>>>>>>> main
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2050,7 +2106,13 @@ id right_side
 id rounded
 id routineid
 id routinename
+<<<<<<< HEAD
 id routinetext
+=======
+id routinerecycler
+id routinetext
+id routineupdate
+>>>>>>> main
 id row_index_key
 id sCountEdit
 id sIdEdit
@@ -2075,9 +2137,11 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id secTextView
 id select_dialog_listview
 id selected
 id selection_type
+id setNum
 id shortcut
 id showCustom
 id showHome
@@ -2096,6 +2160,10 @@ id split_action_bar
 id sportscount
 id sportsid
 id sportsname
+<<<<<<< HEAD
+=======
+id sportsrecyclerView
+>>>>>>> main
 id spread
 id spread_inside
 id square
@@ -2104,6 +2172,7 @@ id src_in
 id src_over
 id standard
 id start
+id startBtn
 id startHorizontal
 id startToEnd
 id startVertical
@@ -2115,6 +2184,7 @@ id stretch
 id submenuarrow
 id submit_area
 id tabMode
+id tablayout
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -2134,6 +2204,13 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView2
+id textView3
+id textView4
+id textView5
+id textView7
+id textView8
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2166,8 +2243,11 @@ id up
 id updatertn
 id updatestn
 id useLogo
+id viewPager
 id view_offset_helper
 id visible
+id visible_removing_fragment_view_tag
+id webView
 id wide
 id withText
 id withinBounds
@@ -2235,9 +2315,19 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_exercise_add
+layout activity_exercise_list
+layout activity_exercise_record
+layout activity_exercise_timer
 layout activity_main
 layout activity_routine
+<<<<<<< HEAD
 layout activity_sports
+=======
+layout activity_routine_exercise
+layout activity_sports
+layout activity_tips_main
+>>>>>>> main
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2254,6 +2344,11 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout exercise_record_row
+layout exercise_row
+layout exercise_tip_page
+layout fragment_exercise_list
+layout fragment_tips_image
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2400,6 +2495,8 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string hello_blank_fragment
+string hello_world
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
@@ -2461,6 +2558,7 @@ string path_password_strike_through
 string project_id
 string search_menu_title
 string status_bar_notification_info_overflow
+string title_activity_exercise_add
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
@@ -3232,6 +3330,8 @@ styleable FlowLayout itemSpacing lineSpacing
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
+styleable Fragment android_name android_id android_tag
+styleable FragmentContainerView android_name android_tag
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable ImageFilterView altSrc brightness contrast crossfade overlay round roundPercent saturation warmth

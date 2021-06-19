@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\suk14\\Documents\\GitHub\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ro\\values-ro.xml",
+=======
+            "outputFile": "C:\\Users\\suk14\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ro\\values-ro.xml",
+>>>>>>> main
             "map": [
                 {
                     "source": "C:\\Users\\suk14\\.gradle\\caches\\transforms-2\\files-2.1\\a3d6b172b5090ee3978399d7c887613f\\jetified-play-services-basement-17.0.0\\res\\values-ro\\values.xml",

@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\suk14\\Documents\\GitHub\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ms\\values-ms.xml",
+=======
+            "outputFile": "C:\\Users\\suk14\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ms\\values-ms.xml",
+>>>>>>> main
             "map": [
                 {
                     "source": "C:\\Users\\suk14\\.gradle\\caches\\transforms-2\\files-2.1\\ffe0738efec363d8b0c8fa00cc5e8e32\\jetified-play-services-base-17.1.0\\res\\values-ms\\values.xml",
