@@ -1781,7 +1781,6 @@ id CTRL
 id CategoryPhysicalRecord
 id CategoryRecord
 id CategoryRoutine
-id CategoryTimer
 id CategoryTips
 id FUNCTION
 id META
@@ -2244,12 +2243,10 @@ id textView18
 id textView19
 id textView2
 id textView20
-id textView21
 id textView22
 id textView23
 id textView24
 id textView25
-id textView26
 id textView27
 id textView28
 id textView29

@@ -3,9 +3,6 @@
     <item android:id = "@+id/CategoryRecord"
         android:title = "운동기록"
         />
-    <item android:id = "@+id/CategoryTimer"
-        android:title = "타이머"
-        />
     <item android:id = "@+id/CategoryTips"
         android:title = "운동방법"
         />
