@@ -14,6 +14,7 @@ class ExerciseTimerActivity : AppCompatActivity()  {
     lateinit var rdb: DatabaseReference
     private var time = 0
     private var timeRest = 0
+    private var timeNum = 0
     private var isRunning = false
     private var isRestNow = false
     private var timerTaskTotal: Timer? = null
@@ -63,17 +64,10 @@ class ExerciseTimerActivity : AppCompatActivity()  {
     }
     private fun reset(timer: Timer?,num: Int,count:Int){
         timer?.cancel()
-
         timeRest = num
         isRestNow = false
-        if(count == 1){
-            binding.secTextView.text = "150"
-            //binding.milliTextView.text = "00"
-        }
-        else{
-            binding.secTextView.text = "30"
-            //binding.milliTextView.text = "00"
-        }
+        binding.secTextView.text = (num/100).toString()
+        //binding.milliTextView.text = "00"
     }
     private fun init() {
         val date = intent.getStringExtra("date")
@@ -81,12 +75,22 @@ class ExerciseTimerActivity : AppCompatActivity()  {
         val setNumber = intent.getIntExtra("set",1)
         val countNumber = intent.getIntExtra("count",1)
         val id = intent.getIntExtra("id",1)
-        var set = setNumber
-        var count = countNumber
-
+        val k = intent.getBooleanExtra("k",true)
+        //var set = setNumber-1
+        var count = 1
+        if(k==true){
+            count = setNumber
+            timeNum = 3000
+            binding.secTextView.text = "30"
+        }
+        else{
+            timeNum = countNumber*100
+            binding.secTextView.text = countNumber.toString()
+        }
         binding.apply {
-            countNum.text = "남은 횟수: "+ count.toString()
-            setNum.text = "남은 세트수: "+set.toString()
+            countNum.text = "남은 세트 수: "+ count.toString()
+            //setNum.text = "남은 세트수: "+set.toString()
+
             startBtn.setOnClickListener {
                 flag = true
                 if(isRunning == false){
@@ -106,49 +110,37 @@ class ExerciseTimerActivity : AppCompatActivity()  {
             restBtn.setOnClickListener {
                 if(flag == false) {
                     Toast.makeText(this@ExerciseTimerActivity,"운동 시작 버튼을 눌러주세요.",Toast.LENGTH_SHORT).show()
-                } else{
-                    if(set == 0 && count == 0 && isRestNow == false)
+                }
+                else{
+                    if(count == 0 && isRestNow == false)
                     {
-                        try{
-                            Toast.makeText(this@ExerciseTimerActivity,"운동을 기록합니다.",Toast.LENGTH_SHORT).show()
-                            flag = false
-                            isRestNow = true
-                            pauseTotal(timerTaskTotal)
-                            val recodTime :String = (time / 6000).toString() + "분 "+((time %6000)/100).toString()+"초"
-                            val rdbpath = "MyRecord/items"
-                            rdb = FirebaseDatabase.getInstance().getReference(rdbpath)
-                            val values = ExerciseRecordData(id, name.toString(), recodTime, date.toString())
-                            rdb.child(id.toString()).setValue(values)
-                        }
-                        catch(e:Exception){
-                            Toast.makeText(this@ExerciseTimerActivity,"이미 운동이 기록되었습니다.",android.widget.Toast.LENGTH_SHORT).show()
-                        }
+                        isRestNow = true
+                        count --
+                        Toast.makeText(this@ExerciseTimerActivity,"운동을 기록합니다.",Toast.LENGTH_SHORT).show()
+                        pauseTotal(timerTaskTotal)
+                        val recodTime : Int = (time/100)
+                        //val recodTime :String = (time / 6000).toString() + "분 "+((time %6000)/100).toString()+"초"
+                        val rdbpath = "MyRecord/"+date.toString()
+                        rdb = FirebaseDatabase.getInstance().getReference(rdbpath)
+                        val values = ExerciseRecordData(id, name.toString(), recodTime, date.toString())
+                        rdb.child(id.toString()).setValue(values)
                     }
-                    else if(set >= 0 && isRestNow == false){
-                        if(set != 0 && count == 0){
-                            isRestNow = true
-                            startRest(15000,count)
-                            count = countNumber // CountNum 넣을 예정
-                            set--
-                            countNum.text = "남은 횟수: "+count.toString()
-                            setNum.text = "남은 세트수: "+set.toString()
 
+                    else if(count > 0 && isRestNow == false){
+                        isRestNow = true
+                        startRest(timeNum,count)
+                        count --
+                        countNum.text = "남은 세트 수: "+count.toString()
+                        if(count == 0){
+                            restBtn.setText("운동 기록")
                         }
-                        else{
-                            isRestNow = true
-                            startRest(3000,count)
-                            count--
-                            countNum.text = "남은 횟수: "+count.toString()
-                            if(set == 0 && count == 0){
-                                restBtn.setText("운동 기록")
-                            }
+                    else if (count < 0){
+                        Toast.makeText(this@ExerciseTimerActivity,"운동 기록이 완료되었습니다.",Toast.LENGTH_SHORT).show()
+                    }else{
+                        Toast.makeText(this@ExerciseTimerActivity,"휴식중 입니다.",Toast.LENGTH_SHORT).show()
                         }
-                    }
-                    else{
-                        Toast.makeText(this@ExerciseTimerActivity,"휴식중입니다.",Toast.LENGTH_SHORT).show()
-                    }
                 }
             }
         }
     }
-}
+}}

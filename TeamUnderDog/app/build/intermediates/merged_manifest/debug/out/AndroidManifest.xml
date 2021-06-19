@@ -24,11 +24,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.TeamUnderDog" >
-        <activity android:name="com.example.teamunderdog.routine.RoutineExerciseActivity" />
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity
             android:name="com.example.teamunderdog.exerciselist.ExerciseAddActivity"
-            android:label="@string/title_activity_exercise_add" />
+            android:label="@string/title_activity_exercise_add" >
+        </activity>
         <activity android:name="com.example.exercisetips.TipsViewPageActivity" />
         <activity android:name="com.example.exercisetips.TipsMainActivity" />
         <activity android:name="com.example.teamunderdog.routine.SportsActivity" />
@@ -36,6 +36,8 @@
         <activity android:name="com.example.teamunderdog.exerciselist.ExerciseListActivity" />
         <activity android:name="com.example.teamunderdog.record.ExerciseRecordActivity" />
         <activity android:name="com.example.teamunderdog.record.ExerciseTimerActivity" />
+        <activity android:name="com.example.teamunderdog.record.AddPhysicalRecordActivity" />
+        <activity android:name="com.example.teamunderdog.record.ShowPhysicalRecordActivity" />
         <activity android:name="com.example.teamunderdog.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

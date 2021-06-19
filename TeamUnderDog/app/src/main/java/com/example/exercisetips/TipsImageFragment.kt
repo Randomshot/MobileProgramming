@@ -22,7 +22,8 @@ class TipsImageFragment : Fragment() {
 
     val tipsViewModel: TipsViewModel by activityViewModels()
 
-    val tipsimglist = arrayListOf<Int>(R.drawable.benchpress, R.drawable.squat, R.drawable.dumbellrow,
+    val tipsimglist = arrayListOf<Int>(
+        R.drawable.benchpress, R.drawable.squat, R.drawable.dumbellrow,
                                     R.drawable.pushup, R.drawable.plank, R.drawable.lounge)
 
     override fun onCreateView(

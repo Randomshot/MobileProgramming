@@ -17,7 +17,6 @@ class SportsActivity : AppCompatActivity() {
     var findQuery = false
     lateinit var routineid:String
     lateinit var routinename:String
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySportsBinding.inflate(layoutInflater)
@@ -30,7 +29,7 @@ class SportsActivity : AppCompatActivity() {
 
     private fun init() {
         var path = "Routines/items/"
-        path = path + routineid +"/sportslist"
+        path = path + routineid+"/sportslist"
         layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
         rdb = FirebaseDatabase.getInstance().getReference(path)
         val query = rdb.limitToLast(50) // 최근 50
@@ -49,11 +48,11 @@ class SportsActivity : AppCompatActivity() {
                 }
             }
         }
+
         binding.apply{
             recyclerView.layoutManager = layoutManager
             recyclerView.adapter = adapter
-            routinetext.text = "번호 : " + routineid + "\n이름 : " + routinename
-
+            routinetext.text = "번호 : " + routineid + "\t이름 : " + routinename
             insertstn.setOnClickListener {
                 initAdapter()
                 val item = Sports(sIdEdit.text.toString().toInt(),
@@ -61,7 +60,7 @@ class SportsActivity : AppCompatActivity() {
                 rdb.child(sIdEdit.text.toString()).setValue(item)
                 clearInput()
             }
-
+            //
             findstn.setOnClickListener {
                 if(!findQuery)
                     findQuery = true
@@ -152,5 +151,4 @@ class SportsActivity : AppCompatActivity() {
         super.onStop()
         adapter.stopListening()
     }
-
 }
