@@ -12,12 +12,12 @@
         "source": "C:\\Users\\s_ghgus7175\\Desktop\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\drawable-v24\\pushup.jpg"
     },
     {
-        "merged": "C:\\Users\\s_ghgus7175\\Desktop\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\res\\merged\\debug\\layout_sports_row.xml.flat",
-        "source": "C:\\Users\\s_ghgus7175\\Desktop\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\sports_row.xml"
-    },
-    {
         "merged": "C:\\Users\\s_ghgus7175\\Desktop\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_dumbellrow.jpg.flat",
         "source": "C:\\Users\\s_ghgus7175\\Desktop\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\drawable-v24\\dumbellrow.jpg"
+    },
+    {
+        "merged": "C:\\Users\\s_ghgus7175\\Desktop\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\res\\merged\\debug\\layout_sports_row.xml.flat",
+        "source": "C:\\Users\\s_ghgus7175\\Desktop\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\sports_row.xml"
     },
     {
         "merged": "C:\\Users\\s_ghgus7175\\Desktop\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",

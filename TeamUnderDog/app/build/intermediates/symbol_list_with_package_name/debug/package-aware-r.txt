@@ -1778,6 +1778,7 @@ id AddPhysicalRecordValueEditText
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id CategoryExerciseRecord
 id CategoryPhysicalRecord
 id CategoryRecord
 id CategoryRoutine
