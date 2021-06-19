@@ -20,7 +20,11 @@
     <FrameLayout
         android:id="@+id/exerciseListFrameLayout"
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="match_parent"
+=======
+        android:layout_height="593dp"
+>>>>>>> tmp
         android:layout_weight="1"
 
         app:layout_constraintEnd_toEndOf="parent"
@@ -64,4 +68,8 @@
 
     </LinearLayout>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> tmp
 </LinearLayout>

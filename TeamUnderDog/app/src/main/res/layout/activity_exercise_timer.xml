@@ -13,7 +13,12 @@
         android:layout_height="wrap_content"
         android:padding="20dp"
         android:text="TextView"
+<<<<<<< HEAD
         android:textAlignment="viewEnd" />
+=======
+        android:textAlignment="viewEnd"
+        android:visibility="gone" />
+>>>>>>> tmp
 
     <TextView
         android:id="@+id/countNum"

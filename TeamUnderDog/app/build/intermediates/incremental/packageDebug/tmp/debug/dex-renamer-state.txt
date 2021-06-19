@@ -1,16 +1,25 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Sun May 23 12:21:30 KST 2021
 base.0=C\:\\Users\\suk14\\Documents\\GitHub\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 =======
 #Wed Jun 02 22:05:54 KST 2021
 base.0=C\:\\Users\\suk14\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 >>>>>>> main
+=======
+#Sat Jun 19 15:46:29 KST 2021
+base.0=C\:\\Users\\s_ghgus7175\\Desktop\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+>>>>>>> tmp
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
 <<<<<<< HEAD
+<<<<<<< HEAD
 base.1=C\:\\Users\\suk14\\Documents\\GitHub\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
 =======
 base.1=C\:\\Users\\suk14\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
 >>>>>>> main
+=======
+base.1=C\:\\Users\\s_ghgus7175\\Desktop\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+>>>>>>> tmp

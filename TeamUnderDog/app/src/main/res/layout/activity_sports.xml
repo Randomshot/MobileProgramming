@@ -6,10 +6,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
 <<<<<<< HEAD
+<<<<<<< HEAD
     tools:context=".SportsActivity">
 =======
     tools:context=".routine.SportsActivity">
 >>>>>>> main
+=======
+    tools:context=".routine.SportsActivity">
+>>>>>>> tmp
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -146,7 +150,11 @@
             android:id="@+id/exitsrn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:text="나가기" />
+=======
+            android:text="루틴 추가" />
+>>>>>>> tmp
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView

@@ -9,8 +9,11 @@
         android:targetSdkVersion="30" />
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.INTERNET" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 =======
+=======
+>>>>>>> tmp
     <uses-permission android:name="android.permission.INTERNET" />
 
     <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
@@ -28,6 +31,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
+<<<<<<< HEAD
         android:theme="@style/Theme.TeamUnderDog" >
 <<<<<<< HEAD
         <activity android:name="com.example.teamunderdog.SportsActivity" />
@@ -38,6 +42,13 @@
         <activity
             android:name="com.example.teamunderdog.exerciselist.ExerciseAddActivity"
             android:label="@string/title_activity_exercise_add" />
+=======
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity
+            android:name="com.example.teamunderdog.exerciselist.ExerciseAddActivity"
+            android:label="@string/title_activity_exercise_add" >
+        </activity>
+>>>>>>> tmp
         <activity android:name="com.example.exercisetips.TipsViewPageActivity" />
         <activity android:name="com.example.exercisetips.TipsMainActivity" />
         <activity android:name="com.example.teamunderdog.routine.SportsActivity" />
@@ -45,6 +56,11 @@
         <activity android:name="com.example.teamunderdog.exerciselist.ExerciseListActivity" />
         <activity android:name="com.example.teamunderdog.record.ExerciseRecordActivity" />
         <activity android:name="com.example.teamunderdog.record.ExerciseTimerActivity" />
+<<<<<<< HEAD
+=======
+        <activity android:name="com.example.teamunderdog.record.AddPhysicalRecordActivity" />
+        <activity android:name="com.example.teamunderdog.record.ShowPhysicalRecordActivity" />
+>>>>>>> tmp
         <activity android:name="com.example.teamunderdog.MainActivity" >
 >>>>>>> main
             <intent-filter>

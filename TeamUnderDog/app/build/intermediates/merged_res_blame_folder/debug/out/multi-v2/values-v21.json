@@ -2,10 +2,14 @@
     "logs": [
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\suk14\\Documents\\GitHub\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
 =======
             "outputFile": "C:\\Users\\suk14\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
 >>>>>>> main
+=======
+            "outputFile": "C:\\Users\\s_ghgus7175\\Desktop\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+>>>>>>> tmp
             "map": [
                 {
                     "source": "C:\\Users\\suk14\\.gradle\\caches\\transforms-2\\files-2.1\\45652bbb3af2e86fb0f5004316fce218\\appcompat-1.2.0\\res\\values-v21\\values-v21.xml",
@@ -66,6 +70,25 @@
                 },
                 {
                     "source": "C:\\Users\\suk14\\.gradle\\caches\\transforms-2\\files-2.1\\4480d7f10738bf60a0be4108c1580666\\media-1.0.0\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "327,330,334,338",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "24569,24737,25026,25322",
+                        "endLines": "329,332,336,340",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "24732,24895,25189,25484"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\s_ghgus7175\\.gradle\\caches\\transforms-2\\files-2.1\\4480d7f10738bf60a0be4108c1580666\\media-1.0.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",

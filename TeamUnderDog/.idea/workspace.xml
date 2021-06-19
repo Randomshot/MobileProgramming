@@ -27,6 +27,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="beb75273-c3e1-412a-95cb-9f8711bde2df" name="Default Changelist" comment="">
 <<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
@@ -506,6 +507,13 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
 >>>>>>> main
+=======
+    <list default="true" id="84adcb1d-a322-49b0-9d90-5cb98185d289" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/record/ExerciseRecordActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/record/ExerciseRecordActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/record/ExerciseRecordAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/record/ExerciseRecordAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/record/ExerciseRecordData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/record/ExerciseRecordData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/record/ExerciseTimerActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/record/ExerciseTimerActivity.kt" afterDir="false" />
+>>>>>>> tmp
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -522,6 +530,7 @@
     </projectState>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -533,12 +542,24 @@
     </option>
   </component>
 >>>>>>> main
+=======
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+>>>>>>> tmp
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="KotlinCodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="1spHbd8aNJfSzEuf7Uiopf2ZFWE" />
 <<<<<<< HEAD
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -547,6 +568,9 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
 >>>>>>> main
+=======
+  <component name="ProjectId" id="1sqQL6nX2YsgJM44yPg2rYuOEHq" />
+>>>>>>> tmp
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -556,6 +580,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-05-22T08:14:41.676Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+<<<<<<< HEAD
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
 <<<<<<< HEAD
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
@@ -584,6 +609,26 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\s_ghgus7175\AndroidStudioProjects\TeamUnderDog\app" />
+=======
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/values" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/example/record" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.example.exerciselist" />
+      <recent name="com.example.exercisetips" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\s_ghgus7175\Desktop\MobileProgramming\TeamUnderDog\app\src\main\res\layout" />
+      <recent name="C:\Users\s_ghgus7175\Desktop\MobileProgramming\TeamUnderDog\app\src\main\java\com\example\exerciselist" />
+      <recent name="C:\Users\s_ghgus7175\Desktop\MobileProgramming\TeamUnderDog\app\src\main\java\com\example\record" />
+      <recent name="C:\Users\lsd\Desktop\SDL\activity\MobileProgramming\TeamUnderDog\app\src\main\res\layout" />
+      <recent name="C:\Users\lsd\Desktop\SDL\activity\MobileProgramming\TeamUnderDog\app\src\main\res\drawable-v24" />
+>>>>>>> tmp
     </key>
     <key name="android.template.356492464">
       <recent name="com.example.teamunderdog.routine" />
@@ -606,7 +651,11 @@
       </method>
     </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+<<<<<<< HEAD
       <module name="TeamUnderDog.app" />
+=======
+      <module name="ExerciseTips.app" />
+>>>>>>> tmp
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -668,11 +717,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="beb75273-c3e1-412a-95cb-9f8711bde2df" name="Default Changelist" comment="" />
-      <created>1621562683724</created>
+      <changelist id="84adcb1d-a322-49b0-9d90-5cb98185d289" name="Default Changelist" comment="" />
+      <created>1621597580819</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1621562683724</updated>
+      <updated>1621597580819</updated>
     </task>
     <task id="LOCAL-00001" summary="x">
       <created>1621739034335</created>
@@ -698,6 +747,7 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <component name="VcsManagerConfiguration">
     <MESSAGE value="x" />
@@ -725,6 +775,8 @@
     </state>
     <state width="1301" height="247" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621739368631" />
 =======
+=======
+>>>>>>> tmp
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -738,6 +790,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="749" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1621680564747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -803,5 +856,48 @@
     </state>
     <state x="564" y="60" width="895" height="856" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1622639794798" />
 >>>>>>> main
+=======
+    <state x="1104" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1621691277072">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1104" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1621691277072" />
+    <state x="453" y="299" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1622527743569">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="453" y="299" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1622527743569" />
+    <state x="954" y="279" key="AndroidCreateResourceFileDialog" timestamp="1621694410356">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="954" y="279" key="AndroidCreateResourceFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1621694410356" />
+    <state x="1126" y="270" key="AndroidProcessChooserDialog" timestamp="1621704275761">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1126" y="270" key="AndroidProcessChooserDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1621704275761" />
+    <state x="1154" y="276" key="FileChooserDialogImpl" timestamp="1624073519813">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1154" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1624073519813" />
+    <state x="1154" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1621685646571" />
+    <state width="1108" height="239" key="GridCell.Tab.0.bottom" timestamp="1621707799606">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1108" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1621707799606" />
+    <state width="1108" height="239" key="GridCell.Tab.0.center" timestamp="1621707799605">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1108" height="239" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1621707799605" />
+    <state width="1108" height="239" key="GridCell.Tab.0.left" timestamp="1621707799605">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1108" height="239" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1621707799605" />
+    <state width="1108" height="239" key="GridCell.Tab.0.right" timestamp="1621707799606">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1108" height="239" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1621707799606" />
+    <state x="1168" y="302" key="chooseDestDirectoryDialog" timestamp="1622527928074">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1168" y="302" key="chooseDestDirectoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1622527928074" />
+>>>>>>> tmp
   </component>
 </project>

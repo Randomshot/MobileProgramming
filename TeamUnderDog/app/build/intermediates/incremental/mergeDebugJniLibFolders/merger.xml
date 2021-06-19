@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\suk14\Documents\GitHub\MobileProgramming\TeamUnderDog\app\src\main\jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\suk14\Documents\GitHub\MobileProgramming\TeamUnderDog\app\src\debug\jniLibs"/></dataSet></merger>
 =======
 <merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\suk14\AndroidStudioProjects\MobileProgramming\TeamUnderDog\app\src\main\jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\suk14\AndroidStudioProjects\MobileProgramming\TeamUnderDog\app\src\debug\jniLibs"/></dataSet></merger>
 >>>>>>> main
+=======
+<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\s_ghgus7175\Desktop\MobileProgramming\TeamUnderDog\app\src\main\jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\s_ghgus7175\Desktop\MobileProgramming\TeamUnderDog\app\src\debug\jniLibs"/></dataSet></merger>
+>>>>>>> tmp

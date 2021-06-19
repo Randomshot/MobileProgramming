@@ -8,19 +8,25 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+<<<<<<< HEAD
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
+=======
+import androidx.drawerlayout.widget.DrawerLayout;
+>>>>>>> tmp
 import androidx.viewbinding.ViewBinding;
 import com.example.teamunderdog.R;
+import com.google.android.material.navigation.NavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final DrawerLayout rootView;
 
   @NonNull
+<<<<<<< HEAD
   public final Button exerciseinfo;
 
   @NonNull
@@ -44,11 +50,28 @@ public final class ActivityMainBinding implements ViewBinding {
     this.menuslayout = menuslayout;
     this.routinerecycler = routinerecycler;
     this.routineupdate = routineupdate;
+=======
+  public final DrawerLayout mainDrawerLayout;
+
+  @NonNull
+  public final NavigationView mainNavigationView;
+
+  @NonNull
+  public final MainHomeBinding showingActivity;
+
+  private ActivityMainBinding(@NonNull DrawerLayout rootView,
+      @NonNull DrawerLayout mainDrawerLayout, @NonNull NavigationView mainNavigationView,
+      @NonNull MainHomeBinding showingActivity) {
+    this.rootView = rootView;
+    this.mainDrawerLayout = mainDrawerLayout;
+    this.mainNavigationView = mainNavigationView;
+    this.showingActivity = showingActivity;
+>>>>>>> tmp
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public DrawerLayout getRoot() {
     return rootView;
   }
 
@@ -73,6 +96,7 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+<<<<<<< HEAD
       id = R.id.exerciseinfo;
       Button exerciseinfo = rootView.findViewById(id);
       if (exerciseinfo == null) {
@@ -105,6 +129,25 @@ public final class ActivityMainBinding implements ViewBinding {
 
       return new ActivityMainBinding((ConstraintLayout) rootView, exerciseinfo, exercisereport,
           menuslayout, routinerecycler, routineupdate);
+=======
+      DrawerLayout mainDrawerLayout = (DrawerLayout) rootView;
+
+      id = R.id.main_navigationView;
+      NavigationView mainNavigationView = rootView.findViewById(id);
+      if (mainNavigationView == null) {
+        break missingId;
+      }
+
+      id = R.id.showing_activity;
+      View showingActivity = rootView.findViewById(id);
+      if (showingActivity == null) {
+        break missingId;
+      }
+      MainHomeBinding binding_showingActivity = MainHomeBinding.bind(showingActivity);
+
+      return new ActivityMainBinding((DrawerLayout) rootView, mainDrawerLayout, mainNavigationView,
+          binding_showingActivity);
+>>>>>>> tmp
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
