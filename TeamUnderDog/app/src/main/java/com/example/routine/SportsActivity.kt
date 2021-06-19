@@ -101,7 +101,24 @@ class SportsActivity : AppCompatActivity() {
             }
 
             exitsrn.setOnClickListener {
-                finish()
+                var date = LocalDate.now().toString()
+                var rdbpath = "Exercise/" + date
+                var num = 0
+                var rand = ""
+                rdb = FirebaseDatabase.getInstance().getReference(rdbpath)
+                for (i: Int in 1..adapter.itemCount) {
+                    rand = String.format("%06d", adapter.getItem(num).sId)
+                    var item = ExerciseData(
+                            rand.toInt(),
+                            adapter.getItem(num).sName,
+                            1,
+                            0,
+                            adapter.getItem(num).sCount,
+                            adapter.getItem(num).k
+                    )
+                    rdb.child(rand).setValue(item)
+                    num += 1
+                }
             }
         }
     }
