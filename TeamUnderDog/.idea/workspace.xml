@@ -28,6 +28,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="beb75273-c3e1-412a-95cb-9f8711bde2df" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+=======
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/teamunderdog/routine/RoutineExerciseActivity.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_routine_exercise.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
@@ -502,6 +505,7 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/teamunderdog/routine/SportsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/teamunderdog/routine/SportsActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+>>>>>>> main
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -517,6 +521,8 @@
       <ProjectState />
     </projectState>
   </component>
+<<<<<<< HEAD
+=======
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -526,6 +532,7 @@
       </list>
     </option>
   </component>
+>>>>>>> main
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -533,9 +540,13 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ProjectId" id="1spHbd8aNJfSzEuf7Uiopf2ZFWE" />
+<<<<<<< HEAD
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+>>>>>>> main
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -546,6 +557,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+<<<<<<< HEAD
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\suk14\Documents\GitHub\MobileProgramming\TeamUnderDog\app\src\main\res\layout" />
+      <recent name="C:\Users\suk14\Documents\GitHub\MobileProgramming\TeamUnderDog\app\src\main\java\com\example\teamunderdog" />
+=======
     <property name="ToolWindowLogcat.ShowToolbar" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -559,6 +580,7 @@
     </key>
     <key name="android.template.1767839597">
       <recent name="com.example.teamunderdog" />
+>>>>>>> main
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\s_ghgus7175\AndroidStudioProjects\TeamUnderDog\app" />
@@ -652,8 +674,57 @@
       <option name="presentableId" value="Default" />
       <updated>1621562683724</updated>
     </task>
+    <task id="LOCAL-00001" summary="x">
+      <created>1621739034335</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621739034335</updated>
+    </task>
+    <task id="LOCAL-00002" summary="x">
+      <created>1621739150844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621739150844</updated>
+    </task>
+    <task id="LOCAL-00003" summary="x">
+      <created>1621739353969</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621739353969</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+<<<<<<< HEAD
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="x" />
+    <option name="LAST_COMMIT_MESSAGE" value="x" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="167" y="143" key="CommitChangelistDialog2" timestamp="1621739348703">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="167" y="143" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1621739348703" />
+    <state width="1301" height="247" key="GridCell.Tab.0.bottom" timestamp="1621739368632">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1301" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621739368632" />
+    <state width="1301" height="247" key="GridCell.Tab.0.center" timestamp="1621739368631">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1301" height="247" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621739368631" />
+    <state width="1301" height="247" key="GridCell.Tab.0.left" timestamp="1621739368631">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1301" height="247" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621739368631" />
+    <state width="1301" height="247" key="GridCell.Tab.0.right" timestamp="1621739368631">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1301" height="247" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621739368631" />
+=======
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -731,5 +802,6 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="564" y="60" width="895" height="856" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1622639794798" />
+>>>>>>> main
   </component>
 </project>

@@ -11,6 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TeamUnderDog">
+<<<<<<< HEAD
+        <activity android:name=".SportsActivity" />
+
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".RoutineActivity">
+=======
         <activity android:name=".routine.RoutineExerciseActivity"></activity>
         <activity
             android:name=".exerciselist.ExerciseAddActivity"
@@ -23,6 +29,7 @@
         <activity android:name=".record.ExerciseRecordActivity" />
         <activity android:name=".record.ExerciseTimerActivity" />
         <activity android:name=".MainActivity">
+>>>>>>> main
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

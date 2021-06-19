@@ -2017,7 +2017,10 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id media_actions
+<<<<<<< HEAD
+=======
 id menuslayout
+>>>>>>> main
 id message
 id middle
 id milliTextView
@@ -2091,7 +2094,10 @@ id radio
 id ratio
 id rectangles
 id recyclerView
+<<<<<<< HEAD
+=======
 id restBtn
+>>>>>>> main
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2100,9 +2106,13 @@ id right_side
 id rounded
 id routineid
 id routinename
+<<<<<<< HEAD
+id routinetext
+=======
 id routinerecycler
 id routinetext
 id routineupdate
+>>>>>>> main
 id row_index_key
 id sCountEdit
 id sIdEdit
@@ -2150,7 +2160,10 @@ id split_action_bar
 id sportscount
 id sportsid
 id sportsname
+<<<<<<< HEAD
+=======
 id sportsrecyclerView
+>>>>>>> main
 id spread
 id spread_inside
 id square
@@ -2308,9 +2321,13 @@ layout activity_exercise_record
 layout activity_exercise_timer
 layout activity_main
 layout activity_routine
+<<<<<<< HEAD
+layout activity_sports
+=======
 layout activity_routine_exercise
 layout activity_sports
 layout activity_tips_main
+>>>>>>> main
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

@@ -8,9 +8,13 @@
         android:minSdkVersion="28"
         android:targetSdkVersion="30" />
 
+<<<<<<< HEAD
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+=======
     <uses-permission android:name="android.permission.INTERNET" />
 
     <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+>>>>>>> main
     <!-- <uses-sdk android:minSdkVersion="14"/> -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -25,6 +29,11 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.TeamUnderDog" >
+<<<<<<< HEAD
+        <activity android:name="com.example.teamunderdog.SportsActivity" />
+        <activity android:name="com.example.teamunderdog.MainActivity" />
+        <activity android:name="com.example.teamunderdog.RoutineActivity" >
+=======
         <activity android:name="com.example.teamunderdog.routine.RoutineExerciseActivity" />
         <activity
             android:name="com.example.teamunderdog.exerciselist.ExerciseAddActivity"
@@ -37,6 +46,7 @@
         <activity android:name="com.example.teamunderdog.record.ExerciseRecordActivity" />
         <activity android:name="com.example.teamunderdog.record.ExerciseTimerActivity" />
         <activity android:name="com.example.teamunderdog.MainActivity" >
+>>>>>>> main
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

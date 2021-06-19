@@ -1,5 +1,29 @@
 [
     {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\suk14\\Documents\\GitHub\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\suk14\\Documents\\GitHub\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\suk14\\Documents\\GitHub\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sports.xml",
+        "source": "C:\\Users\\suk14\\Documents\\GitHub\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\activity_sports.xml"
+    },
+    {
+        "merged": "C:\\Users\\suk14\\Documents\\GitHub\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_routine.xml",
+        "source": "C:\\Users\\suk14\\Documents\\GitHub\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\activity_routine.xml"
+    },
+    {
+        "merged": "C:\\Users\\suk14\\Documents\\GitHub\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sports_row.xml",
+        "source": "C:\\Users\\suk14\\Documents\\GitHub\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\sports_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\suk14\\Documents\\GitHub\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row.xml",
+        "source": "C:\\Users\\suk14\\Documents\\GitHub\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\row.xml"
+    },
+    {
+        "merged": "C:\\Users\\suk14\\Documents\\GitHub\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\routine_row.xml",
+        "source": "C:\\Users\\suk14\\Documents\\GitHub\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\routine_row.xml"
+=======
         "merged": "C:\\Users\\suk14\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sports_row.xml",
         "source": "C:\\Users\\suk14\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\sports_row.xml"
     },
@@ -66,5 +90,6 @@
     {
         "merged": "C:\\Users\\suk14\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_routine_exercise.xml",
         "source": "C:\\Users\\suk14\\AndroidStudioProjects\\MobileProgramming\\TeamUnderDog\\app\\src\\main\\res\\layout\\activity_routine_exercise.xml"
+>>>>>>> main
     }
 ]
