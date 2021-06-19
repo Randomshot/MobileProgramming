@@ -45,9 +45,11 @@ class ExerciseAdapter(options: FirebaseRecyclerOptions<ExerciseData>):
         holder.title.text = data.eTitle
         holder.setsNum.text = data.eSetsNum.toString() + " 세트"
         holder.weight.text = data.eWeight.toString() + " kg"
-        holder.count.text = data.eCount.toString() + " 회/1세트"
-
+        if(data.k == true){
+            holder.count.text = data.eCount.toString() + " 회/1세트"
+        }
+        else{
+            holder.count.text = data.eCount.toString() + " 초"
+        }
     }
-
-
 }

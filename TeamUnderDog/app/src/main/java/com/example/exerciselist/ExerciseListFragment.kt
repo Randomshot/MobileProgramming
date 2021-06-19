@@ -58,12 +58,13 @@ class ExerciseListFragment : Fragment() {
                     val setNum = adapter.getItem(position).eSetsNum.toInt()
                     val countNum = adapter.getItem(position).eCount.toInt()
                     val name = adapter.getItem(position).eTitle.toString()
-
+                    val k = adapter.getItem(position).k
                     intent.putExtra("date",date)
                     intent.putExtra("name",name)
                     intent.putExtra("set",setNum)
                     intent.putExtra("count",countNum)
                     intent.putExtra("id",id)
+                    intent.putExtra("k",k)
                     startActivity(intent)
 
             }
