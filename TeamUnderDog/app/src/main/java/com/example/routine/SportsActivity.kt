@@ -5,9 +5,11 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.teamunderdog.databinding.ActivitySportsBinding
+import com.example.teamunderdog.exerciselist.ExerciseData
 import com.firebase.ui.database.FirebaseRecyclerOptions
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
+import java.time.LocalDate
 
 class SportsActivity : AppCompatActivity() {
     lateinit var binding: ActivitySportsBinding
@@ -35,8 +37,8 @@ class SportsActivity : AppCompatActivity() {
         val query = rdb.limitToLast(50) // 최근 50
         //val query = rdb.orderByKey()
         val option = FirebaseRecyclerOptions.Builder<Sports>()
-            .setQuery(query, Sports::class.java)
-            .build()
+                .setQuery(query, Sports::class.java)
+                .build()
         adapter = MySportsAdapter(option)
         adapter.itemClickListener = object : MySportsAdapter.OnItemClickListener{
             override fun OnItemClick(view: View, position: Int) {
@@ -68,8 +70,8 @@ class SportsActivity : AppCompatActivity() {
                     adapter.stopListening() // 질의 동기화 멈추기
                 val query = rdb.orderByChild("sname").equalTo(sNameEdit.text.toString())
                 val option = FirebaseRecyclerOptions.Builder<Sports>()
-                    .setQuery(query, Sports::class.java)
-                    .build()
+                        .setQuery(query, Sports::class.java)
+                        .build()
                 adapter = MySportsAdapter(option)
                 adapter.itemClickListener = object : MySportsAdapter.OnItemClickListener{
                     override fun OnItemClick(view: View, position: Int) {
@@ -95,13 +97,30 @@ class SportsActivity : AppCompatActivity() {
             updatestn.setOnClickListener {
                 initAdapter()
                 rdb.child(sIdEdit.text.toString())
-                    .child("scount")
-                    .setValue(sCountEdit.text.toString().toInt())
+                        .child("scount")
+                        .setValue(sCountEdit.text.toString().toInt())
                 clearInput()
             }
 
             exitsrn.setOnClickListener {
-                finish()
+                var date = LocalDate.now().toString()
+                var rdbpath = "Exercise/" + date
+                var num = 0
+                var rand = ""
+                rdb = FirebaseDatabase.getInstance().getReference(rdbpath)
+                for (i: Int in 1..adapter.itemCount) {
+                    rand = String.format("%06d", adapter.getItem(num).sId)
+                    var item = ExerciseData(
+                            rand.toInt(),
+                            adapter.getItem(num).sName,
+                            1,
+                            0,
+                            adapter.getItem(num).sCount,
+                            adapter.getItem(num).k
+                    )
+                    rdb.child(rand).setValue(item)
+                    num += 1
+                }
             }
         }
     }
@@ -114,8 +133,8 @@ class SportsActivity : AppCompatActivity() {
             val query = rdb.limitToLast(50) // 최근 50
             //val query = rdb.orderByKey()
             val option = FirebaseRecyclerOptions.Builder<Sports>()
-                .setQuery(query, Sports::class.java)
-                .build()
+                    .setQuery(query, Sports::class.java)
+                    .build()
             adapter = MySportsAdapter(option)
             adapter.itemClickListener = object : MySportsAdapter.OnItemClickListener{
                 override fun OnItemClick(view: View, position: Int) {

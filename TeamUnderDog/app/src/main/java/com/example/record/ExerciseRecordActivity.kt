@@ -1,7 +1,6 @@
 package com.example.teamunderdog.record
 
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -35,13 +34,6 @@ class ExerciseRecordActivity : AppCompatActivity() {
                 .setQuery(query, ExerciseRecordData::class.java)
                 .build()
         adapter = ExerciseRecordAdapter(option)
-
-        for (i : Int in 1..adapter.itemCount){
-            total += adapter.getItem(i-1).eRecord.toInt()
-            Log.i("test",adapter.getItem(i-1).eRecord.toString())
-        }  //이부분이 왜 안될까요???
-
-
         binding.recyclerView.layoutManager = layoutManager
         binding.recyclerView.adapter = adapter
         adapter.startListening()
@@ -60,7 +52,7 @@ class ExerciseRecordActivity : AppCompatActivity() {
                 date = year.toString()+"-0"+(monthOfYear+1).toString()+"-"+dayOfMonth.toString()
             }
             else{
-                 date = year.toString()+"-0"+(monthOfYear+1).toString()+"-0"+dayOfMonth.toString()
+                date = year.toString()+"-0"+(monthOfYear+1).toString()+"-0"+dayOfMonth.toString()
             }
             initRecycler(date)
         }

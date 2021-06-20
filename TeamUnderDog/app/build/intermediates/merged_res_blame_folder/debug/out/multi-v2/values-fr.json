@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\s_ghgus7175\\Desktop\\tmp222\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
+            "outputFile": "C:\\Users\\s_ghgus7175\\Desktop\\main\\TeamUnderDog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\s_ghgus7175\\.gradle\\caches\\transforms-2\\files-2.1\\a3d6b172b5090ee3978399d7c887613f\\jetified-play-services-basement-17.0.0\\res\\values-fr\\values.xml",
